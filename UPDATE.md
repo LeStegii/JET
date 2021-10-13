@@ -1,0 +1,187 @@
+### 2.5.1 Classic
+
+**Changelog:**
+Updated Xaero's Minimap (Fair-play Edition)
+Updated CodeChickenCore
+
+This update isn't really necessary if you are already using 2.5 Classic but since CCC changed something related to downloading CCL new players need the update.
+
+### 2.5 Classic
+
+**Changelog:**
+Added Big Reactors
+Added MCHeli Addons
+Added Better Foliage (deactivated)
+Added Dynamic Surroundings (deactivated)
+Updated many mods
+Removed some crafting recipes for turrets
+
+
+### 2.4 Classic
+
+**Changelog:**
+Added: Recipe for 8rnd 12.7x40mm Magazine, Cinnebar Recipes, (OP) Recipe for Fuel truck
+Removed: -
+Fixed: Recipe for Sulfur (Pulverizer), Recipe for Ruby weapon Skin (Biomes O' Plenty), Clientside Explosions
+
+
+### 2.3 Classic
+
+**Changelog:**
+Added: Better Builder's Wands, Recipe for MXT-MV Husky TSV
+Removed: MCHELI Container Recipe
+Fixed: Modern Warfare Ores (Thermal Machines), Recipe for Growler ITV, Discord link
+
+
+### 2.2 Classic
+
+**Changelog:**
+Added: Minefactory Reloaded, Redstone Arsenal
+Removed: -
+Fixed: configs
+
+
+### 2.1 Classic
+
+**Changelog:**
+Added: Hide Names, optifine batch file
+Removed: -
+Fixed: -
+
+
+### 2.0 Classic
+
+**Changelog:**
+Added: Open Modular Turrets, CraftTweaker, ModTweaker
+Removed: MoreCoalRecipes
+Fixed: Updated many configs, Added many new recipes, Updated Loading Screen
+
+
+### 1.4 Classic
+
+**Changelog:**
+  - Added: Thermal Series Mods
+  - Removed: -
+  - Fixed: Main Menu (Translation and Sounds)
+
+
+### 1.3 Classic
+
+**Changelog:**
+  - Added: FTBLib, FTBUtilities
+  - Removed: -
+  - Fixed: -
+
+
+### 1.2.1 Classic
+
+**Changelog:**
+  - Added: MoreCoalRecipes
+  - Removed: MCJET identification Mod
+  - Fixed: -
+
+
+### 1.2 Classic
+
+**Changelog:**
+  - Added: Aroma1997Core, Aroma1997s Dimensional World
+  - Removed: CustomNPCs
+  - Fixed: Updatet Modern Warfare
+
+
+### 1.1 Classic
+
+**Changelog:**
+  - Added: MCJET identification Mod
+  - Removed: -
+  - Fixed: -
+
+
+### 1.0 Classic
+
+**Changelog:**
+  - Added: -
+  - Removed: All technic Mods
+  - Fixed: Main Menu
+
+### 1.5
+
+**Changelog:**
+  - Added: -
+  - Removed: -
+  - Fixed: Discord Link, Website Link
+
+
+### 1.5
+
+**Changelog:**
+  - Added: TreeCapitator, bspkrsCore
+  - Removed: iChunUtil
+  - Fixed: -
+
+### 1.4
+
+**Changelog:**
+  - Added: -
+  - Removed: Optifine, Hats
+  - Fixed: -
+
+### 1.2
+
+**Changelog:**
+  - Hats, iChunUtil, Malisis Core, Malisis Doors, WAILA, Extra Cells 2, BetterFPS, Fastcraft
+  - Last Update! (?)
+
+
+### 1.1
+
+**Changelog:**
+  - Removed IC2 and EnderIO
+
+### 1.0
+
+**Changelog:**
+  - IC2, Mekanism, Mekanism Generators, Xaeros Minimap, Thermal Foundation, Thermal Dynamics, Thermal Expansion, NetherOres, Custom Main Menu, Gravestone Mod, Minefactory Reloaded, EnderIO
+
+
+### 0.6
+
+**Changelog:**
+  - Fixed Download
+
+
+### 0.5
+
+**Changelog:**
+  New:
+    - Carpenter's Block
+    - ReAuth
+    - Iron Chests
+    - JourneyMap
+    - Biomes O' Plenty Mod
+
+  Removed:
+    - Rei's Minimap
+
+
+### 0.4
+
+**Changelog:**
+  New:
+    - CustomNPCs Mod
+    - Server (jet.PlotSucht.net) - Beta
+
+
+### 0.3
+
+**Changelog:**
+  New:
+    - Modern Warfare Mod
+    - Chisel Mod
+    - Server (jet.PlotSucht.net)
+
+
+### 0.2
+
+**Changelog:**
+  - New Mods
