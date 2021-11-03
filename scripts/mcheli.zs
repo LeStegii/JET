@@ -7,6 +7,10 @@ recipes.remove(<mcheli:fim92>);
 recipes.remove(<mcheli:fim92>);
 recipes.remove(<mcheli:gltd>);
 recipes.remove(<mcheli:parachute>);
+recipes.remove(<mcheli:m18_green>);
+recipes.remove(<mcheli:m18_red>);
+recipes.remove(<mcheli:m18_violet>);
+recipes.remove(<mcheli:m18_yellow>);
 
 // Chaning/Adding recipe for vehicles
 recipes.addShaped(<mcheli:growler>, [[null, <ore:blockGlass>, null], [<ore:ingotIron>, null, <ore:ingotIron>], [<ore:dustRedstone>, <ore:blockIron>, <ore:dustRedstone>]]);
@@ -25,6 +29,11 @@ mods.thermalexpansion.Transposer.addFillRecipe(500, <mcheli:fuel:600>, <mcheli:f
 // Weapons
 recipes.addShaped(<mcheli:fgm148>, [[<mw:MiniSteelPlate>, <mw:MiniSteelPlate>, <mw:SteelIngot>], [<ore:blockGlass>, <mw:Electronics>]]);
 recipes.addShaped(<mcheli:fim92>, [[<ore:blockGlass>], [<mw:MiniSteelPlate>, <mw:MiniSteelPlate>, <mw:MiniSteelPlate>], [<mw:Electronics>, <mw:SteelIngot>]]);
+recipes.addShapeless(<mcheli:m18_green>, [<mw:Piston>, <openmodularturrets:grenadeCraftable>, <openmodularturrets:grenadeCraftable>, <ore:dyeCeramicGreen>]);
+recipes.addShapeless(<mcheli:m18_red>, [<mw:Piston>, <openmodularturrets:grenadeCraftable>, <openmodularturrets:grenadeCraftable>, <ore:dyeCeramicRed>]);
+recipes.addShapeless(<mcheli:m18_violet>, [<mw:Piston>, <openmodularturrets:grenadeCraftable>, <openmodularturrets:grenadeCraftable>, <ore:dyeCeramicPurple>]);
+recipes.addShapeless(<mcheli:m18_violet>, [<mw:Piston>, <openmodularturrets:grenadeCraftable>, <openmodularturrets:grenadeCraftable>, <ore:dyeCeramicPink>]);
+recipes.addShapeless(<mcheli:m18_yellow>, [<mw:Piston>, <openmodularturrets:grenadeCraftable>, <openmodularturrets:grenadeCraftable>, <ore:dyeCeramicYellow>]);
 
 // Vehicles etc.
 recipes.addShaped(<mcheli:gltd>, [[<ore:dyeCeramicGreen>, <ore:blockAluminium>, <ore:dyeCeramicGreen>], [<ore:ingotIron>, <ore:gemGreen>, <ore:ingotIron>], [<ore:stickWood>, <mw:Electronics>, <ore:stickWood>]]);
