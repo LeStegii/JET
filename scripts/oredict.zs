@@ -13,8 +13,11 @@
 <ore:gemGreen>.addAll(<ore:gemPeridot>);
 <ore:gemGreen>.addAll(<ore:gemEmerald>);
 
-<ore:cloth>.add(<mw:Cloth>);
-<ore:cloth>.add(<mw:TanCloth>);
-<ore:cloth>.add(<mw:GreenCloth>);
+<ore:anyCloth>.add(<mw:Cloth>);
+<ore:anyCloth>.add(<mw:TanCloth>);
+<ore:anyCloth>.add(<mw:GreenCloth>);
+<ore:clothGreen>.add(<mw:GreenCloth>);
+<ore:clothWhite>.add(<mw:Cloth>);
+<ore:clothTan>.add(<mw:TanCloth>);
 
 <ore:blockAluminium>.add(<chisel:aluminumblock:*>);

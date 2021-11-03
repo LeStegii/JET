@@ -6,6 +6,7 @@ recipes.remove(<mcheli:fgm148>);
 recipes.remove(<mcheli:fim92>);
 recipes.remove(<mcheli:fim92>);
 recipes.remove(<mcheli:gltd>);
+recipes.remove(<mcheli:parachute>);
 
 // Chaning/Adding recipe for vehicles
 recipes.addShaped(<mcheli:growler>, [[null, <ore:blockGlass>, null], [<ore:ingotIron>, null, <ore:ingotIron>], [<ore:dustRedstone>, <ore:blockIron>, <ore:dustRedstone>]]);
@@ -27,3 +28,6 @@ recipes.addShaped(<mcheli:fim92>, [[<ore:blockGlass>], [<mw:MiniSteelPlate>, <mw
 
 // Vehicles etc.
 recipes.addShaped(<mcheli:gltd>, [[<ore:dyeCeramicGreen>, <ore:blockAluminium>, <ore:dyeCeramicGreen>], [<ore:ingotIron>, <ore:gemGreen>, <ore:ingotIron>], [<ore:stickWood>, <mw:Electronics>, <ore:stickWood>]]);
+recipes.addShaped(<mcheli:parachute>, [[<ore:clothGreen>, <ore:clothGreen>, <ore:clothGreen>], [<minecraft:string>, null, <minecraft:string>], [null, <ore:blockCloth>, null]]);
+recipes.addShaped(<mcheli:parachute>, [[<ore:clothTan>, <ore:clothTan>, <ore:clothTan>], [<minecraft:string>, null, <minecraft:string>], [null, <ore:blockCloth>, null]]);
+recipes.addShaped(<mcheli:parachute>, [[<ore:clothWhite>, <ore:clothWhite>, <ore:clothWhite>], [<minecraft:string>, null, <minecraft:string>], [null, <ore:blockCloth>, null]]);
