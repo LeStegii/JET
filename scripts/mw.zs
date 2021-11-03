@@ -14,6 +14,7 @@ recipes.remove(<mw:TanCloth>);
 recipes.remove(<mw:SteelPlate>);
 recipes.remove(<mw:BigSteelPlate>);
 recipes.remove(<mw:MiniSteelPlate>);
+recipes.remove(<mw:AluminumPlate>);
 
 // New Steel recipe
 recipes.addShapeless(<mw:SteelDust>, [<ore:dustIron>, <ore:dustAnyCoal>, <ore:dustCoal>]);
@@ -54,7 +55,9 @@ recipes.addShapeless(<mw:GreenCloth>, [<ore:cloth>, <ore:dyeCeramicGreen>]);
 recipes.addShapeless(<mw:TanCloth>, [<ore:cloth>, <ore:dyeCeramicYellow>]);
 recipes.addShapeless(<mw:Cloth>, [<ore:cloth>, <ore:dyeCeramicWhite>]);
 
-// Steel Plates
+// Steel/Aluminum Plates
+recipes.addShapeless(<mw:AluminumPlate>, [<mw:AluminumIngot>, <mw:AluminumIngot>, <mw:AluminumIngot>, <ore:toolHammer>.reuse()]);
 recipes.addShapeless(<mw:MiniSteelPlate>, [<mw:SteelIngot>, <mw:SteelIngot>, <ore:toolHammer>.reuse()]);
+recipes.addShapeless(<mw:SteelPlate>, [<mw:MiniSteelPlate>, <mw:MiniSteelPlate>, <mw:MiniSteelPlate>, <ore:toolHammer>.reuse()]);
 recipes.addShapeless(<mw:SteelPlate>, [<mw:MiniSteelPlate>, <mw:MiniSteelPlate>, <mw:MiniSteelPlate>, <ore:toolHammer>.reuse()]);
 recipes.addShapeless(<mw:BigSteelPlate>, [<mw:SteelPlate>, <mw:SteelPlate>, <mw:MiniSteelPlate>, <ore:toolHammer>.reuse()]);
