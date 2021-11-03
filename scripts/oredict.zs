@@ -16,3 +16,5 @@
 <ore:cloth>.add(<mw:Cloth>);
 <ore:cloth>.add(<mw:TanCloth>);
 <ore:cloth>.add(<mw:GreenCloth>);
+
+<ore:blockAluminium>.add(<chisel:aluminumblock:*>);

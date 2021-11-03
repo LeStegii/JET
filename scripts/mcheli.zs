@@ -5,6 +5,7 @@ recipes.remove(<mcheli:fuel>);
 recipes.remove(<mcheli:fgm148>);
 recipes.remove(<mcheli:fim92>);
 recipes.remove(<mcheli:fim92>);
+recipes.remove(<mcheli:gltd>);
 
 // Chaning/Adding recipe for vehicles
 recipes.addShaped(<mcheli:growler>, [[null, <ore:blockGlass>, null], [<ore:ingotIron>, null, <ore:ingotIron>], [<ore:dustRedstone>, <ore:blockIron>, <ore:dustRedstone>]]);
@@ -23,3 +24,6 @@ mods.thermalexpansion.Transposer.addFillRecipe(500, <mcheli:fuel:600>, <mcheli:f
 // Weapons
 recipes.addShaped(<mcheli:fgm148>, [[<mw:MiniSteelPlate>, <mw:MiniSteelPlate>, <mw:SteelIngot>], [<ore:blockGlass>, <mw:Electronics>]]);
 recipes.addShaped(<mcheli:fim92>, [[<ore:blockGlass>], [<mw:MiniSteelPlate>, <mw:MiniSteelPlate>, <mw:MiniSteelPlate>], [<mw:Electronics>, <mw:SteelIngot>]]);
+
+// Vehicles etc.
+recipes.addShaped(<mcheli:gltd>, [[<ore:dyeCeramicGreen>, <ore:blockAluminium>, <ore:dyeCeramicGreen>], [<ore:ingotIron>, <ore:gemGreen>, <ore:ingotIron>], [<ore:stickWood>, <mw:Electronics>, <ore:stickWood>]]);

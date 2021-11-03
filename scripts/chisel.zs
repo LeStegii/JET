@@ -14,3 +14,6 @@ recipes.addShapeless(<chisel:cloudinabottle>, [<minecraft:glass_bottle>, <Biomes
 
 // Chaning Ball o Moss recipe 
 recipes.addShaped(<chisel:ballomoss>, [[<minecraft:vine>, <ThermalExpansion:material:512>, <minecraft:vine>], [<ThermalExpansion:material:512>, <minecraft:vine>, <ThermalExpansion:material:512>], [<minecraft:vine>, <ThermalExpansion:material:512>, <minecraft:vine>]]);
+
+// Block of Aluminum
+recipes.addShaped(<chisel:aluminumblock:2>, [[<ore:ingotAluminium>, <ore:ingotAluminium>, <ore:ingotAluminium>], [<ore:ingotAluminium>, <ore:ingotAluminium>, <ore:ingotAluminium>], [<ore:ingotAluminium>, <ore:ingotAluminium>, <ore:ingotAluminium>]]);
