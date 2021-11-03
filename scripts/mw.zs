@@ -16,6 +16,7 @@ recipes.remove(<mw:BigSteelPlate>);
 recipes.remove(<mw:MiniSteelPlate>);
 recipes.remove(<mw:AluminumPlate>);
 recipes.remove(<mw:RubySkin>);
+recipes.remove(<mw:Piston>);
 
 // New Steel recipe
 recipes.addShapeless(<mw:SteelDust>, [<ore:dustIron>, <ore:dustAnyCoal>, <ore:dustCoal>]);
@@ -62,3 +63,6 @@ recipes.addShapeless(<mw:MiniSteelPlate>, [<mw:SteelIngot>, <mw:SteelIngot>, <or
 recipes.addShapeless(<mw:SteelPlate>, [<mw:MiniSteelPlate>, <mw:MiniSteelPlate>, <mw:MiniSteelPlate>, <ore:toolHammer>.reuse()]);
 recipes.addShapeless(<mw:SteelPlate>, [<mw:MiniSteelPlate>, <mw:MiniSteelPlate>, <mw:MiniSteelPlate>, <ore:toolHammer>.reuse()]);
 recipes.addShapeless(<mw:BigSteelPlate>, [<mw:SteelPlate>, <mw:SteelPlate>, <mw:MiniSteelPlate>, <ore:toolHammer>.reuse()]);
+
+// Piston
+recipes.addShaped(<mw:Piston>, [[<mw:MiniSteelPlate>], [null, <ore:stickWood>], [null, null, <mw:plastic>]]);
