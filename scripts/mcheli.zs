@@ -2,10 +2,8 @@
 recipes.remove(<mcheli:container>);
 recipes.remove(<mcheli:growler>);
 recipes.remove(<mcheli:fuel>);
-recipes.remove(<mw:SteelPlate>);
-recipes.remove(<mw:BigSteelPlate>);
-recipes.remove(<mw:MiniSteelPlate>);
 recipes.remove(<mcheli:fgm148>);
+recipes.remove(<mcheli:fim92>);
 recipes.remove(<mcheli:fim92>);
 
 // Chaning/Adding recipe for vehicles

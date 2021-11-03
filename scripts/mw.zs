@@ -11,6 +11,9 @@ recipes.remove(<mw:spetznaz_boots>);
 recipes.remove(<mw:MetalComponents>);
 recipes.remove(<mw:GreenCloth>);
 recipes.remove(<mw:TanCloth>);
+recipes.remove(<mw:SteelPlate>);
+recipes.remove(<mw:BigSteelPlate>);
+recipes.remove(<mw:MiniSteelPlate>);
 
 // New Steel recipe
 recipes.addShapeless(<mw:SteelDust>, [<ore:dustIron>, <ore:dustAnyCoal>, <ore:dustCoal>]);
