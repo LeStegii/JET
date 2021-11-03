@@ -15,6 +15,7 @@ recipes.remove(<mw:SteelPlate>);
 recipes.remove(<mw:BigSteelPlate>);
 recipes.remove(<mw:MiniSteelPlate>);
 recipes.remove(<mw:AluminumPlate>);
+recipes.remove(<mw:RubySkin>);
 
 // New Steel recipe
 recipes.addShapeless(<mw:SteelDust>, [<ore:dustIron>, <ore:dustAnyCoal>, <ore:dustCoal>]);
@@ -45,7 +46,7 @@ recipes.addShaped(<mw:m40gasmask_helmet>, [[<minecraft:stained_glass_pane:15>, <
 recipes.addShaped(<mw:m40gasmask_helmet>, [[<minecraft:stained_glass_pane:15>, <mw:GreenCloth>, <minecraft:stained_glass_pane:15>], [<mw:GreenCloth>, <ore:dustCoal>, <mw:GreenCloth>], [<mw:MiniSteelPlate>, <mw:GreenCloth>, <mw:MiniSteelPlate>]]);
 
 // BOP Ruby compatibility
-recipes.addShaped(<mw:RubySkin>, [[<BiomesOPlenty:gems:1>]]);
+recipes.addShaped(<mw:RubySkin>, [[<ore:gemRuby>]]);
 
 // Missing recipe for M6 Magazin
 recipes.addShaped(<mw:M6Gmag>, [[<mw:SteelPlate>], [<mw:MiniSteelPlate>]]);
