@@ -54,9 +54,9 @@ recipes.addShaped(<mw:RubySkin>, [[<ore:gemRuby>]]);
 recipes.addShaped(<mw:M6Gmag>, [[<mw:SteelPlate>], [<mw:MiniSteelPlate>]]);
 
 // Cloth
-recipes.addShapeless(<mw:GreenCloth>, [<ore:cloth>, <ore:dyeCeramicGreen>]);
-recipes.addShapeless(<mw:TanCloth>, [<ore:cloth>, <ore:dyeCeramicYellow>]);
-recipes.addShapeless(<mw:Cloth>, [<ore:cloth>, <ore:dyeCeramicWhite>]);
+recipes.addShapeless(<mw:GreenCloth>, [<ore:anyCloth>, <ore:dyeCeramicGreen>]);
+recipes.addShapeless(<mw:TanCloth>, [<ore:anyCloth>, <ore:dyeCeramicYellow>]);
+recipes.addShapeless(<mw:Cloth>, [<ore:anyCloth>, <ore:dyeCeramicWhite>]);
 
 // Steel/Aluminum Plates
 recipes.addShapeless(<mw:AluminumPlate>, [<mw:AluminumIngot>, <mw:AluminumIngot>, <mw:AluminumIngot>, <ore:toolHammer>.reuse()]);
