@@ -13,5 +13,5 @@ SmokeNum = 6
 SmokeColor = 20, 200, 20
 SmokeVelocityVertical   = 0.7
 SmokeVelocityHorizontal = 0.7
-AddRecipe = "DY",  Y, iron_ingot, D,dye,2
+AddRecipe = "BBB", "BBB", "BBB", B, bedrock
 DispenseAcceleration = 1.1
