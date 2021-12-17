@@ -1,3 +1,17 @@
+### 2.6 Classic
+
+**Changelog:**
+Updated Xaero's Minimap (Fair-play Edition)
+Make Creative Recipes harder
+Disabled Sacred Springs Biome
+Disabled Sacred Rubber Sapling
+Updated many recipes and textures
+Updated configs for Dynamic Surroundings and Better Foliage
+Implemented new fuel system (based on liquid coal)
+Added and updated many oredict entries
+Added CustomNPCs
+Added FoamFix
+
 ### 2.5.1 Classic
 
 **Changelog:**
