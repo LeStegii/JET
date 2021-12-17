@@ -21,3 +21,6 @@
 <ore:clothTan>.add(<mw:TanCloth>);
 
 <ore:blockAluminium>.add(<chisel:aluminumblock:*>);
+
+<ore:ingotBronze>.remove(<customnpcs:npcBronzeIngot>);
+<ore:ingotMithril>.remove(<customnpcs:npcMithrilIngot>);
