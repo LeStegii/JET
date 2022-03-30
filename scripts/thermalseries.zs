@@ -5,6 +5,9 @@ mods.thermalexpansion.Crucible.removeRecipe(<ThermalFoundation:material:2>);
 // Adding recipe for Creative Energy Cell
 recipes.addShaped(<ThermalExpansion:Cell:0>, [[<ThermalFoundation:bucket:5>, <ThermalFoundation:bucket:5>, <ThermalFoundation:bucket:5>], [<ThermalFoundation:bucket:5>, <ThermalExpansion:Cell:4>, <ThermalFoundation:bucket:5>], [<ThermalFoundation:bucket:5>, <ThermalFoundation:bucket:5>, <ThermalFoundation:bucket:5>]]);
 
+// Adding recipe for Creative Cache
+recipes.addShaped(<ThermalExpansion:Cache:0>, [[null, <ThermalFoundation:material:516>, null], [<ThermalFoundation:material:516>, <ThermalExpansion:Cache:4>, <ThermalFoundation:material:516>], [null, <ThermalFoundation:material:516>, null]]);
+
 // Adding recipe for Creative Capacitor
 recipes.addShaped(<ThermalExpansion:capacitor:0>.withTag({Energy: 100000}), [[<ThermalFoundation:bucket:5>, <ThermalFoundation:bucket:5>, <ThermalFoundation:bucket:5>], [<ThermalFoundation:bucket:5>, <ThermalExpansion:capacitor:5>, <ThermalFoundation:bucket:5>], [<ThermalFoundation:bucket:5>, <ThermalFoundation:bucket:5>, <ThermalFoundation:bucket:5>]]);
 
@@ -15,7 +18,7 @@ recipes.addShaped(<ThermalFoundation:material:516>, [[<ThermalFoundation:materia
 recipes.addShaped(<ThermalExpansion:wrench>, [[<ore:ingotIron>, <ore:ingotTin>, <ore:ingotIron>], [null, <ore:stickWood>, null], [null, <ore:dyeBlue>, null]]);
 
 // Adding recipe for Liquid Mana
-mods.thermalexpansion.Crucible.addRecipe(20000, <ThermalFoundation:material:516>, <liquid:mana> * 20);
+mods.thermalexpansion.Crucible.addRecipe(8000, <ThermalFoundation:material:516>, <liquid:mana> * 100);
 
 // Adding recipe for Liquid Coal
 mods.thermalexpansion.Crucible.addRecipe(8000, <ThermalFoundation:material:2>, <liquid:coal> * 200);
