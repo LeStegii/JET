@@ -1,0 +1,10 @@
+﻿DisplayName = Type79ATM-2
+Type = TVMissile
+Power = 250
+Acceleration = 9
+Explosion = 2
+Flaming = false
+Sight = MoveSight
+Delay =60
+ModeNum = 2
+Sound = missile_15_snd
