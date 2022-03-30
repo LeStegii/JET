@@ -108,7 +108,6 @@ recipes.addShaped(<customnpcs:npcShelf:4>, [[<minecraft:planks:4>, <minecraft:pl
 recipes.addShaped(<customnpcs:npcShelf:5>, [[<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>], [null, null, <ore:stickWood>]]);
 recipes.addShaped(<customnpcs:npcCampfire>, [[null, <ore:logWood>, null], [<ore:logWood>, <ore:blockCoal>, <ore:logWood>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
 recipes.addShaped(<customnpcs:npcBigSign>, [[<ore:logWood>, <ore:logWood>, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>], [null, <ore:stickWood>, null]]);
-recipes.addShaped(<customnpcs:npcBloodBlock>, [[null, <ore:dyeRed>, null], [<ore:dyeRed>, <ore:dustRedstone>, <ore:dyeRed>], [null, <ore:dyeRed>, null]]);
 
 // Adding recipes for some items
 recipes.addShapeless(<customnpcs:npcSkull>, [<minecraft:skull:1>]);
@@ -119,9 +118,6 @@ recipes.addShaped(<customnpcs:npcKey2>, [[null, <ore:ingotIron>, <ore:ingotIron>
 recipes.addShapeless(<customnpcs:npcLetter>, [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <ore:dyeBlack>]);
 recipes.addShapeless(<customnpcs:npcBlueprint>, [<customnpcs:npcPlans>, <ore:dyeBlue>]);
 recipes.addShaped(<customnpcs:npcPlans>, [[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<minecraft:paper>, <customnpcs:npcLetter>, <minecraft:paper>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
-
-// Tooltips
-<customnpcs:npcMoney>.addTooltip("Besuche die Bank am Spawn für mehr Infos.");
 
 // Hide all the other things in NEI
 NEI.hide(<customnpcs:npcCarpentyBench:*>);
