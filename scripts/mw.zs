@@ -18,9 +18,40 @@ recipes.remove(<mw:AluminumPlate>);
 recipes.remove(<mw:RubySkin>);
 recipes.remove(<mw:Piston>);
 recipes.remove(<mw:OpticGlass>);
+recipes.remove(<mw:OpticGlass>);
+recipes.remove(<mw:Electric>);
+recipes.remove(<mw:Voltaic>);
+recipes.remove(<mw:Volcanic>);
+recipes.remove(<mw:Cosmos>);
+recipes.remove(<mw:Asiimov>);
+recipes.remove(<mw:Vulcan>);
+recipes.remove(<mw:PinkIsTheNewBlack>);
+recipes.remove(<mw:CrystalCrimson>);
+recipes.remove(<mw:DynamicBundle>);
+recipes.remove(<mw:Woodland_Digital>);
+recipes.remove(<mw:Foliage>);
+recipes.remove(<mw:Desert_Digital>);
+recipes.remove(<mw:LightningStrike>);
+recipes.remove(<mw:Emerald>);
+recipes.remove(<mw:Diamond>);
+recipes.remove(<mw:Gold>);
+recipes.remove(<mw:Sapphire>);
+recipes.remove(<mw:Amethyst>);
+recipes.remove(<mw:Desert>);
+recipes.remove(<mw:Forest>);
+recipes.remove(<mw:Amber>);
+recipes.remove(<mw:Arctic>);
+recipes.remove(<mw:RubySkin>);
+recipes.remove(<mw:CrimsonBlood>);
+recipes.remove(<mw:GodWillsIt>);
+recipes.remove(<mw:Evangelion>);
+recipes.remove(<mw:Chrome>);
+recipes.remove(<mw:Murasaki>);
+recipes.remove(<mw:Holographic2>);
+
 
 // New Steel recipe
-recipes.addShapeless(<mw:SteelDust>, [<ore:dustIron>, <ore:dustAnyCoal>, <ore:dustCoal>]);
+recipes.addShapeless(<mw:SteelDust>, [<ore:dustIron>, <ore:dustAnyCoal>, <ore:dustAnyCoal>]);
 
 // Fixing Metal Components recipe
 recipes.addShaped(<mw:MetalComponents>, [[<mw:SteelPlate>, <ore:ingotLead>], [<ore:ingotLead>, <mw:SteelPlate>]]);
@@ -42,13 +73,11 @@ mods.thermalexpansion.Smelter.addRecipe(4000, <mw:SiliconOre>, <ThermalFoundatio
 // New Plastic recipe
 mods.thermalexpansion.Smelter.addRecipe(4000, <MineFactoryReloaded:plastic.raw>, <BiomesOPlenty:misc:1>, <mw:plastic>, <mw:plastic>, 50);
 <mw:plastic>.displayName = "Dark Plastic";
+<mw:SV98Mag>.displayName = "10rnd 7.62x54mm Magazine (SV-98)";
 
 // New Gas Mask recipe
 recipes.addShaped(<mw:m40gasmask_helmet>, [[<minecraft:stained_glass_pane:15>, <mw:GreenCloth>, <minecraft:stained_glass_pane:15>], [<mw:GreenCloth>, <ore:dustCharcoal>, <mw:GreenCloth>], [<mw:MiniSteelPlate>, <mw:GreenCloth>, <mw:MiniSteelPlate>]]);
 recipes.addShaped(<mw:m40gasmask_helmet>, [[<minecraft:stained_glass_pane:15>, <mw:GreenCloth>, <minecraft:stained_glass_pane:15>], [<mw:GreenCloth>, <ore:dustCoal>, <mw:GreenCloth>], [<mw:MiniSteelPlate>, <mw:GreenCloth>, <mw:MiniSteelPlate>]]);
-
-// BOP Ruby compatibility
-recipes.addShaped(<mw:RubySkin>, [[<ore:gemRuby>]]);
 
 // Missing recipe for M6 Magazin
 recipes.addShaped(<mw:M6Gmag>, [[<mw:SteelPlate>], [<mw:MiniSteelPlate>]]);
@@ -68,5 +97,39 @@ recipes.addShapeless(<mw:BigSteelPlate>, [<mw:SteelPlate>, <mw:SteelPlate>, <mw:
 // Optic Glass
 mods.thermalexpansion.Smelter.addRecipe(4000, <mw:TitaniumIngot>*2, <BigReactors:BRMultiblockGlass>*2, <mw:OpticGlass>, <BigReactors:BRIngot:6>, 20);
 
+// EOTech Scope (Tan)
+recipes.addShaped(<mw:Holographic2>, [[null, <mw:TanCloth>, <mw:MiniSteelPlate>], [<ore:ingotSteel>, <mw:Electronics>, <mw:OpticGlass>], [<mw:MiniSteelPlate>, <ore:ingotSteel>, <ore:ingotSteel>]]);
+
+
 // Piston
 recipes.addShaped(<mw:Piston>, [[<mw:MiniSteelPlate>], [null, <ore:stickWood>], [null, null, <mw:plastic>]]);
+
+// Skins
+recipes.addShapeless(<mw:Electric>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicBlack>, <ore:dyeCeramicLightBlue>]);
+recipes.addShapeless(<mw:Voltaic>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicRed>, <ore:dyeCeramicGray>]);
+recipes.addShapeless(<mw:Volcanic>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicBlack>, <ore:dyeCeramicGray>]);
+recipes.addShapeless(<mw:Cosmos>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicBlack>, <ore:dyeCeramicPurple>]);
+recipes.addShapeless(<mw:Asiimov>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicBlack>, <ore:dyeCeramicOrange>, <ore:dyeCeramicWhite>]);
+recipes.addShapeless(<mw:Vulcan>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicLightBlue>, <ore:dyeCeramicGray>, <ore:dyeCeramicWhite>]);
+recipes.addShapeless(<mw:PinkIsTheNewBlack>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicPink>, <ore:dyeCeramicGray>]);
+recipes.addShapeless(<mw:CrystalCrimson>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicRed>, <ore:dyeCeramicRed>]);
+recipes.addShapeless(<mw:DynamicBundle>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicBlue>, <ore:dyeCeramicBlue>]);
+recipes.addShapeless(<mw:Woodland_Digital>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicGreen>, <ore:dyeCeramicBrown>]);
+recipes.addShapeless(<mw:Foliage>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicGreen>, <ore:dyeCeramicLime>]);
+recipes.addShapeless(<mw:Desert_Digital>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicYellow>, <ore:dyeCeramicBrown>]);
+recipes.addShapeless(<mw:LightningStrike>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicPink>, <ore:dyeCeramicPink>]);
+recipes.addShapeless(<mw:Emerald>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicGreen>, <ore:gemGreen>]);
+recipes.addShapeless(<mw:Diamond>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicLightBlue>, <ore:gemDiamond>]);
+recipes.addShapeless(<mw:Gold>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicOrange>, <ore:ingotGold>]);
+recipes.addShapeless(<mw:Sapphire>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicBlue>, <ore:gemLapis>]);
+recipes.addShapeless(<mw:Amethyst>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicBlue>, <ore:dyeCeramicPurple>]);
+recipes.addShapeless(<mw:Desert>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicYellow>, <ore:sand>]);
+recipes.addShapeless(<mw:Forest>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicGreen>, <ore:dyeCeramicBrown>, <ore:treeLeaves>]);
+recipes.addShapeless(<mw:Amber>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicOrange>, <ore:gemAmber>]);
+recipes.addShapeless(<mw:Arctic>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicWhite>, <ore:dyeCeramicGray>, <ore:blockIce>]);
+recipes.addShapeless(<mw:RubySkin>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicBlack>, <ore:gemRed>]);
+recipes.addShapeless(<mw:CrimsonBlood>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicBlack>, <ore:dyeCeramicRed>]);
+recipes.addShapeless(<mw:GodWillsIt>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicYellow>, <ore:dyeCeramicWhite>]);
+recipes.addShapeless(<mw:Evangelion>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicLime>, <ore:dyeCeramicPink>]);
+recipes.addShapeless(<mw:Chrome>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicPurple>, <ore:dyeCeramicPink>]);
+recipes.addShapeless(<mw:Murasaki>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicPurple>, <ore:dyeCeramicPurple>]);
