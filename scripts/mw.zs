@@ -100,7 +100,6 @@ mods.thermalexpansion.Smelter.addRecipe(4000, <mw:TitaniumIngot>*2, <BigReactors
 // EOTech Scope (Tan)
 recipes.addShaped(<mw:Holographic2>, [[null, <mw:TanCloth>, <mw:MiniSteelPlate>], [<ore:ingotSteel>, <mw:Electronics>, <mw:OpticGlass>], [<mw:MiniSteelPlate>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 
-
 // Piston
 recipes.addShaped(<mw:Piston>, [[<mw:MiniSteelPlate>], [null, <ore:stickWood>], [null, null, <mw:plastic>]]);
 
@@ -133,3 +132,6 @@ recipes.addShapeless(<mw:GodWillsIt>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:
 recipes.addShapeless(<mw:Evangelion>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicLime>, <ore:dyeCeramicPink>]);
 recipes.addShapeless(<mw:Chrome>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicPurple>, <ore:dyeCeramicPink>]);
 recipes.addShapeless(<mw:Murasaki>, [<ore:anyCloth>, <ore:sheetPlastic>, <ore:dyeCeramicPurple>, <ore:dyeCeramicPurple>]);
+
+// Laser Cell
+recipes.addShaped(<mw:LaserPointer>*2, [[<ore:ingotSteel>, <ore:ingotSteel>, <mw:MiniSteelPlate>], [<ore:gemRuby>, <ore:gemRuby>, <mw:Capacitor>], [<ore:ingotSteel>, <ore:ingotSteel>, <mw:MiniSteelPlate>]]);
