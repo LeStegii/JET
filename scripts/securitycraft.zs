@@ -1,10 +1,11 @@
 import mods.nei.NEI;
+import minetweaker.item.IItemStack;
 
 // Remove recipes
 recipes.remove(<securitycraft:adminTool>);
 recipes.remove(<securitycraft:alarm>);
 recipes.remove(<securitycraft:alarmLit>);
-recipes.remove(<securitycraft:blacklistModule>);
+//recipes.remove(<securitycraft:blacklistModule>);
 recipes.remove(<securitycraft:blockPocketManager>);
 recipes.remove(<securitycraft:blockPocketWall>);
 recipes.remove(<securitycraft:bogusLava>);
@@ -28,13 +29,15 @@ recipes.remove(<securitycraft:deactivatedCageTrap>);
 recipes.remove(<securitycraft:disguiseModule>);
 recipes.remove(<securitycraft:doorIndestructibleIronItem>);
 recipes.remove(<securitycraft:doubleCrystalQuartzSlab>);
-recipes.remove(<securitycraft:harmingModule>);
 recipes.remove(<securitycraft:ims>);
 recipes.remove(<securitycraft:inventoryScanner>);
 recipes.remove(<securitycraft:inventoryScannerField>);
 recipes.remove(<securitycraft:ironDoorReinforced>);
 recipes.remove(<securitycraft:ironTrapdoor>);
 recipes.remove(<securitycraft:keycardReader>);
+recipes.remove(<securitycraft:keycards:3>);
+recipes.remove(<securitycraft:keycards:4>);
+recipes.remove(<securitycraft:keycards:5>);
 recipes.remove(<securitycraft:keypad>);
 recipes.remove(<securitycraft:keypadChest>);
 recipes.remove(<securitycraft:keypadFurnace>);
@@ -46,59 +49,59 @@ recipes.remove(<securitycraft:motionActivatedLightOn>);
 recipes.remove(<securitycraft:panicButton>);
 recipes.remove(<securitycraft:portableRadar>);
 recipes.remove(<securitycraft:protecto>);
-recipes.remove(<securitycraft:reinforcedBrick>);
-recipes.remove(<securitycraft:reinforcedCarpet>);
-recipes.remove(<securitycraft:reinforcedCobblestone>);
-recipes.remove(<securitycraft:reinforcedCompressedBlocks>);
-recipes.remove(<securitycraft:reinforcedCrystalQuartz>);
-recipes.remove(<securitycraft:reinforcedCrystalQuartzSlab>);
-recipes.remove(<securitycraft:reinforcedDirt>);
-recipes.remove(<securitycraft:reinforcedDirtSlab>);
-recipes.remove(<securitycraft:reinforcedDoubleCrystalQuartzSlab>);
-recipes.remove(<securitycraft:reinforcedDoubleDirtSlab>);
-recipes.remove(<securitycraft:reinforcedDoubleStoneSlabs>);
-recipes.remove(<securitycraft:reinforcedDoubleWoodSlabs>);
-recipes.remove(<securitycraft:reinforcedEndStone>);
-recipes.remove(<securitycraft:reinforcedFenceGate>);
-recipes.remove(<securitycraft:reinforcedGlass>);
-recipes.remove(<securitycraft:reinforcedGlassBlock>);
-recipes.remove(<securitycraft:reinforcedGlowstone>);
-recipes.remove(<securitycraft:reinforcedGravel>);
-recipes.remove(<securitycraft:reinforcedHardenedClay>);
-recipes.remove(<securitycraft:reinforcedIronBars>);
-recipes.remove(<securitycraft:reinforcedLogs>);
-recipes.remove(<securitycraft:reinforcedLogs2>);
-recipes.remove(<securitycraft:reinforcedMetals>);
-recipes.remove(<securitycraft:reinforcedMossyCobblestone>);
-recipes.remove(<securitycraft:reinforcedNetherBrick>);
-recipes.remove(<securitycraft:reinforcedNetherrack>);
-recipes.remove(<securitycraft:reinforcedObsidian>);
-recipes.remove(<securitycraft:reinforcedPlanks>);
-recipes.remove(<securitycraft:reinforcedQuartz>);
-recipes.remove(<securitycraft:reinforcedSand>);
-recipes.remove(<securitycraft:reinforcedSandstone>);
-recipes.remove(<securitycraft:reinforcedStainedGlass>);
-recipes.remove(<securitycraft:reinforcedStainedGlassPanes>);
-recipes.remove(<securitycraft:reinforcedStainedHardenedClay>);
-recipes.remove(<securitycraft:reinforcedStairsAcacia>);
-recipes.remove(<securitycraft:reinforcedStairsBirch>);
-recipes.remove(<securitycraft:reinforcedStairsBrick>);
-recipes.remove(<securitycraft:reinforcedStairsCobblestone>);
-recipes.remove(<securitycraft:reinforcedStairsCrystalQuartz>);
-recipes.remove(<securitycraft:reinforcedStairsDarkoak>);
-recipes.remove(<securitycraft:reinforcedStairsJungle>);
-recipes.remove(<securitycraft:reinforcedStairsNetherBrick>);
-recipes.remove(<securitycraft:reinforcedStairsOak>);
-recipes.remove(<securitycraft:reinforcedStairsQuartz>);
-recipes.remove(<securitycraft:reinforcedStairsSandstone>);
-recipes.remove(<securitycraft:reinforcedStairsSpruce>);
-recipes.remove(<securitycraft:reinforcedStairsStone>);
-recipes.remove(<securitycraft:reinforcedStairsStoneBrick>);
-recipes.remove(<securitycraft:reinforcedStone>);
-recipes.remove(<securitycraft:reinforcedStoneBrick>);
-recipes.remove(<securitycraft:reinforcedStoneSlabs>);
-recipes.remove(<securitycraft:reinforcedWoodSlabs>);
-recipes.remove(<securitycraft:reinforcedWool>);
+recipes.remove(<securitycraft:reinforcedBrick:*>);
+recipes.remove(<securitycraft:reinforcedCarpet:*>);
+recipes.remove(<securitycraft:reinforcedCobblestone:*>);
+recipes.remove(<securitycraft:reinforcedCompressedBlocks:*>);
+recipes.remove(<securitycraft:reinforcedCrystalQuartz:*>);
+recipes.remove(<securitycraft:reinforcedCrystalQuartzSlab:*>);
+recipes.remove(<securitycraft:reinforcedDirt:*>);
+recipes.remove(<securitycraft:reinforcedDirtSlab:*>);
+recipes.remove(<securitycraft:reinforcedDoubleCrystalQuartzSlab:*>);
+recipes.remove(<securitycraft:reinforcedDoubleDirtSlab:*>);
+recipes.remove(<securitycraft:reinforcedDoubleStoneSlabs:*>);
+recipes.remove(<securitycraft:reinforcedDoubleWoodSlabs:*>);
+recipes.remove(<securitycraft:reinforcedEndStone:*>);
+recipes.remove(<securitycraft:reinforcedFenceGate:*>);
+recipes.remove(<securitycraft:reinforcedGlass:*>);
+recipes.remove(<securitycraft:reinforcedGlassBlock:*>);
+recipes.remove(<securitycraft:reinforcedGlowstone:*>);
+recipes.remove(<securitycraft:reinforcedGravel:*>);
+recipes.remove(<securitycraft:reinforcedHardenedClay:*>);
+recipes.remove(<securitycraft:reinforcedIronBars:*>);
+recipes.remove(<securitycraft:reinforcedLogs:*>);
+recipes.remove(<securitycraft:reinforcedLogs2:*>);
+recipes.remove(<securitycraft:reinforcedMetals:*>);
+recipes.remove(<securitycraft:reinforcedMossyCobblestone:*>);
+recipes.remove(<securitycraft:reinforcedNetherBrick:*>);
+recipes.remove(<securitycraft:reinforcedNetherrack:*>);
+recipes.remove(<securitycraft:reinforcedObsidian:*>);
+recipes.remove(<securitycraft:reinforcedPlanks:*>);
+recipes.remove(<securitycraft:reinforcedQuartz:*>);
+recipes.remove(<securitycraft:reinforcedSand:*>);
+recipes.remove(<securitycraft:reinforcedSandstone:*>);
+recipes.remove(<securitycraft:reinforcedStainedGlass:*>);
+recipes.remove(<securitycraft:reinforcedStainedGlassPanes:*>);
+recipes.remove(<securitycraft:reinforcedStainedHardenedClay:*>);
+recipes.remove(<securitycraft:reinforcedStairsAcacia:*>);
+recipes.remove(<securitycraft:reinforcedStairsBirch:*>);
+recipes.remove(<securitycraft:reinforcedStairsBrick:*>);
+recipes.remove(<securitycraft:reinforcedStairsCobblestone:*>);
+recipes.remove(<securitycraft:reinforcedStairsCrystalQuartz:*>);
+recipes.remove(<securitycraft:reinforcedStairsDarkoak:*>);
+recipes.remove(<securitycraft:reinforcedStairsJungle:*>);
+recipes.remove(<securitycraft:reinforcedStairsNetherBrick:*>);
+recipes.remove(<securitycraft:reinforcedStairsOak:*>);
+recipes.remove(<securitycraft:reinforcedStairsQuartz:*>);
+recipes.remove(<securitycraft:reinforcedStairsSandstone:*>);
+recipes.remove(<securitycraft:reinforcedStairsSpruce:*>);
+recipes.remove(<securitycraft:reinforcedStairsStone:*>);
+recipes.remove(<securitycraft:reinforcedStairsStoneBrick:*>);
+recipes.remove(<securitycraft:reinforcedStone:*>);
+recipes.remove(<securitycraft:reinforcedStoneBrick:*>);
+recipes.remove(<securitycraft:reinforcedStoneSlabs:*>);
+recipes.remove(<securitycraft:reinforcedWoodSlabs:*>);
+recipes.remove(<securitycraft:reinforcedWool:*>);
 recipes.remove(<securitycraft:reinforced_stone_pressure_plate>);
 recipes.remove(<securitycraft:remoteAccessMine>);
 recipes.remove(<securitycraft:retinalScanner>);
@@ -142,8 +145,9 @@ recipes.addShapeless(<securitycraft:claymoreActive>*3, [<mw:LaserPointer>, <secu
 recipes.addShaped(<securitycraft:cameraMonitor>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <ore:paneGlass>, <ore:ingotIron>], [<ore:ingotIron>, electronics, <ore:ingotIron>]]);
 recipes.addShaped(<securitycraft:laserBlock>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <mw:LaserPointer>, <ore:ingotIron>], [<ore:ingotIron>, dark_plastic, <ore:ingotIron>]]);
 recipes.addShaped(<securitycraft:usernameLogger>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <securitycraft:portableRadar>, <ore:ingotIron>], [<ore:ingotIron>, dark_plastic, <ore:ingotIron>]]);
+recipes.addShaped(<securitycraft:retinalScanner>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:ender_eye>, <ore:ingotIron>], [<ore:ingotIron>, dark_plastic, <ore:ingotIron>]]);
 recipes.addShaped(<securitycraft:keycardReader>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <ThermalExpansion:material>, <ore:ingotIron>], [<ore:ingotIron>, dark_plastic, <ore:ingotIron>]]);
-recipes.addShaped(<securitycraft:keypadItem>, [[<minecraft:stone_button>, <minecraft:stone_button>, <minecraft:stone_button>], [<ThermalFoundation:material:133>, <mw:AluminumPlate>, <ThermalFoundation:material:133>], [<minecraft:stone_button>, <minecraft:stone_button>, <minecraft:stone_button>]]);
+recipes.addShaped(<securitycraft:keypadItem>, [[<minecraft:stone_button>, <minecraft:stone_button>, <minecraft:stone_button>], [<mw:AluminumPlate>, <ThermalFoundation:material:69>, <mw:AluminumPlate>], [<minecraft:stone_button>, <minecraft:stone_button>, <minecraft:stone_button>]]);
 recipes.addShapeless(<securitycraft:secretSignItem>*3, [<minecraft:sign>, <minecraft:sign>, <minecraft:sign>, <ore:dustSulfur>]);
 recipes.addShapeless(<securitycraft:panicButton>, [piston, <ore:dustRedstone>]);
 recipes.addShapeless(<securitycraft:motionActivatedLightOff>*2, [<securitycraft:portableRadar>, <minecraft:redstone_lamp>, <roadstuff:itemIronPart:1>]);
@@ -151,6 +155,12 @@ recipes.addShaped(<securitycraft:alarm>, [[<ore:dyeCeramicRed>, <ore:paneGlassRe
 recipes.addShaped(<securitycraft:portableRadar>, [[dark_plastic, dark_plastic, dark_plastic], [<ore:paneGlassBlack>, <mw:OpticGlass>, <ore:paneGlassBlack>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 recipes.addShaped(<securitycraft:protecto>, [[<roadstuff:concreteBlock>, <ThermalExpansion:material:3>, <roadstuff:concreteBlock>], [<roadstuff:concreteBlock>, <securitycraft:portableRadar>, <roadstuff:concreteBlock>], [<roadstuff:concreteBlock>, <roadstuff:concreteBlock>, <roadstuff:concreteBlock>]]);
 recipes.addShaped(<securitycraft:securityCamera>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<mw:OpticGlass>, electronics, <roadstuff:itemIronPart:1>], [<ore:ingotIron>, <ore:ingotIron>, <roadstuff:itemIronPart>]]);
+recipes.addShaped(<securitycraft:keycards:4>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>]]);
+recipes.addShaped(<securitycraft:keycards:5>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotEnderium>, <ore:ingotEnderium>, <ore:ingotEnderium>]]);
+recipes.addShaped(<securitycraft:keycards:3>.withTag({Uses: 5}), [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:gemTanzanite>, <ore:gemTanzanite>, <ore:gemTanzanite>]]);
+recipes.addShaped(<securitycraft:universalBlockModifier>, [[<ore:ingotTin>, <ore:gemGreen>, <ore:ingotTin>], [<mw:plastic>, <ore:gemRed>, <mw:plastic>], [<ore:ingotTin>, <mw:plastic>, <ore:ingotTin>]]);
+recipes.addShaped(<securitycraft:universalOwnerChanger>, [[<ore:ingotTin>, <minecraft:name_tag>, <ore:ingotTin>], [<mw:plastic>, <ore:gemDiamond>, <mw:plastic>], [<ore:ingotTin>, <mw:plastic>, <ore:ingotTin>]]);
+recipes.addShaped(<securitycraft:universalBlockRemover>, [[null, <ore:ingotSteel>, <minecraft:iron_pickaxe>], [null, <ore:gemDiamond>, <ore:ingotSteel>], [<roadstuff:itemIronPart>, null, null]]);
 
 
 <securitycraft:keypadChest>.addTooltip(format.yellow("Press SHIFT for more information."));
@@ -162,106 +172,237 @@ recipes.addShaped(<securitycraft:securityCamera>, [[<ore:ingotIron>, <ore:ingotI
 <securitycraft:keypad>.addTooltip(format.yellow("Press SHIFT for more information."));
 <securitycraft:keypad>.addShiftTooltip(format.green("Can be created by right-clicking a frame with a key panel."));
 
-NEI.hide(<securitycraft:blacklistModule>);
-NEI.hide(<securitycraft:mineCut>);
-NEI.hide(<securitycraft:secretSignStanding>);
-NEI.hide(<securitycraft:blockPocketManager>);
-NEI.hide(<securitycraft:blockPocketWall>);
-NEI.hide(<securitycraft:bogusLava>);
-NEI.hide(<securitycraft:bogusLavaFlowing>);
-NEI.hide(<securitycraft:bogusWater>);
-NEI.hide(<securitycraft:bogusWaterFlowing>);
-NEI.hide(<securitycraft:bucketFLava>);
-NEI.hide(<securitycraft:bucketFWater>);
-NEI.hide(<securitycraft:cageTrap>);
-NEI.hide(<securitycraft:crystalQuartz>);
-NEI.hide(<securitycraft:crystalQuartzItem>);
-NEI.hide(<securitycraft:crystalQuartzSlab>);
-NEI.hide(<securitycraft:deactivatedCageTrap>);
-NEI.hide(<securitycraft:disguiseModule>);
-NEI.hide(<securitycraft:doorIndestructibleIronItem>);
-NEI.hide(<securitycraft:doubleCrystalQuartzSlab>);
-NEI.hide(<securitycraft:harmingModule>);
-NEI.hide(<securitycraft:ims>);
-NEI.hide(<securitycraft:inventoryScanner>);
-NEI.hide(<securitycraft:inventoryScannerField>);
-NEI.hide(<securitycraft:ironDoorReinforced>);
-NEI.hide(<securitycraft:ironTrapdoor>);
-NEI.hide(<securitycraft:reinforcedBrick>);
-NEI.hide(<securitycraft:reinforcedCarpet>);
-NEI.hide(<securitycraft:reinforcedCobblestone>);
-NEI.hide(<securitycraft:reinforcedCompressedBlocks>);
-NEI.hide(<securitycraft:reinforcedCrystalQuartz>);
-NEI.hide(<securitycraft:reinforcedCrystalQuartzSlab>);
-NEI.hide(<securitycraft:reinforcedDirt>);
-NEI.hide(<securitycraft:reinforcedDirtSlab>);
-NEI.hide(<securitycraft:reinforcedDoubleCrystalQuartzSlab>);
-NEI.hide(<securitycraft:reinforcedDoubleDirtSlab>);
-NEI.hide(<securitycraft:reinforcedDoubleStoneSlabs>);
-NEI.hide(<securitycraft:reinforcedDoubleWoodSlabs>);
-NEI.hide(<securitycraft:reinforcedEndStone>);
-NEI.hide(<securitycraft:reinforcedFenceGate>);
-NEI.hide(<securitycraft:reinforcedGlass>);
-NEI.hide(<securitycraft:reinforcedGlassBlock>);
-NEI.hide(<securitycraft:reinforcedGlowstone>);
-NEI.hide(<securitycraft:reinforcedGravel>);
-NEI.hide(<securitycraft:reinforcedHardenedClay>);
-NEI.hide(<securitycraft:reinforcedIronBars>);
-NEI.hide(<securitycraft:reinforcedLogs>);
-NEI.hide(<securitycraft:reinforcedLogs2>);
-NEI.hide(<securitycraft:reinforcedMetals>);
-NEI.hide(<securitycraft:reinforcedMossyCobblestone>);
-NEI.hide(<securitycraft:reinforcedNetherBrick>);
-NEI.hide(<securitycraft:reinforcedNetherrack>);
-NEI.hide(<securitycraft:reinforcedObsidian>);
-NEI.hide(<securitycraft:reinforcedPlanks>);
-NEI.hide(<securitycraft:reinforcedQuartz>);
-NEI.hide(<securitycraft:reinforcedSand>);
-NEI.hide(<securitycraft:reinforcedSandstone>);
-NEI.hide(<securitycraft:reinforcedStainedGlass>);
-NEI.hide(<securitycraft:reinforcedStainedGlassPanes>);
-NEI.hide(<securitycraft:reinforcedStainedHardenedClay>);
-NEI.hide(<securitycraft:reinforcedStairsAcacia>);
-NEI.hide(<securitycraft:reinforcedStairsBirch>);
-NEI.hide(<securitycraft:reinforcedStairsBrick>);
-NEI.hide(<securitycraft:reinforcedStairsCobblestone>);
-NEI.hide(<securitycraft:reinforcedStairsCrystalQuartz>);
-NEI.hide(<securitycraft:reinforcedStairsDarkoak>);
-NEI.hide(<securitycraft:reinforcedStairsJungle>);
-NEI.hide(<securitycraft:reinforcedStairsNetherBrick>);
-NEI.hide(<securitycraft:reinforcedStairsOak>);
-NEI.hide(<securitycraft:reinforcedStairsQuartz>);
-NEI.hide(<securitycraft:reinforcedStairsSandstone>);
-NEI.hide(<securitycraft:reinforcedStairsSpruce>);
-NEI.hide(<securitycraft:reinforcedStairsStone>);
-NEI.hide(<securitycraft:reinforcedStairsStoneBrick>);
-NEI.hide(<securitycraft:reinforcedStone>);
-NEI.hide(<securitycraft:reinforcedStoneBrick>);
-NEI.hide(<securitycraft:reinforcedStoneSlabs>);
-NEI.hide(<securitycraft:reinforcedWoodSlabs>);
-NEI.hide(<securitycraft:reinforcedWool>);
-NEI.hide(<securitycraft:reinforced_stone_pressure_plate>);
-NEI.hide(<securitycraft:retinalScanner>);
-NEI.hide(<securitycraft:scIronFence>);
-NEI.hide(<securitycraft:scManual>);
-NEI.hide(<securitycraft:sentry>);
-NEI.hide(<securitycraft:smartModule>);
-NEI.hide(<securitycraft:stairsCrystalQuartz>);
-NEI.hide(<securitycraft:storageModule>);
-NEI.hide(<securitycraft:taser>);
-NEI.hide(<securitycraft:taserPowered>);
-NEI.hide(<securitycraft:trophySystem>);
-NEI.hide(<securitycraft:universalBlockModifier>);
-NEI.hide(<securitycraft:universalBlockReinforcerLvL1>);
-NEI.hide(<securitycraft:universalBlockReinforcerLvL2>);
-NEI.hide(<securitycraft:universalBlockReinforcerLvL3>);
-NEI.hide(<securitycraft:universalBlockRemover>);
-NEI.hide(<securitycraft:universalKeyChanger>);
-NEI.hide(<securitycraft:universalOwnerChanger>);
-NEI.hide(<securitycraft:alarmLit>);
-NEI.hide(<securitycraft:motionActivatedLightOn>);
-NEI.hide(<securitycraft:laser>);
-NEI.hide(<securitycraft:claymoreDefused>);
-NEI.hide(<securitycraft:secretSignWall>);
-NEI.hide(<securitycraft:scannerDoor>);
-NEI.hide(<securitycraft:scannerDoorItem>);
+var hidden = [
+	//<securitycraft:blacklistModule>,
+	<securitycraft:mineCut>,
+	<securitycraft:secretSignStanding>,
+	<securitycraft:blockPocketManager>,
+	<securitycraft:blockPocketWall>,
+	<securitycraft:bogusLava>,
+	<securitycraft:bogusLavaFlowing>,
+	<securitycraft:bogusWater>,
+	<securitycraft:bogusWaterFlowing>,
+	<securitycraft:bucketFLava>,
+	<securitycraft:bucketFWater>,
+	<securitycraft:cageTrap>,
+	<securitycraft:crystalQuartz>,
+	<securitycraft:crystalQuartzItem>,
+	<securitycraft:crystalQuartzSlab>,
+	<securitycraft:deactivatedCageTrap>,
+	<securitycraft:disguiseModule>,
+	<securitycraft:doorIndestructibleIronItem>,
+	<securitycraft:doubleCrystalQuartzSlab>,
+	<securitycraft:ims>,
+	<securitycraft:inventoryScanner>,
+	<securitycraft:inventoryScannerField>,
+	<securitycraft:ironDoorReinforced>,
+	<securitycraft:ironTrapdoor>,
+	<securitycraft:reinforcedBrick>,
+	<securitycraft:reinforcedCarpet>,
+	<securitycraft:reinforcedCarpet:1>,
+	<securitycraft:reinforcedCarpet:2>,
+	<securitycraft:reinforcedCarpet:3>,
+	<securitycraft:reinforcedCarpet:4>,
+	<securitycraft:reinforcedCarpet:5>,
+	<securitycraft:reinforcedCarpet:6>,
+	<securitycraft:reinforcedCarpet:7>,
+	<securitycraft:reinforcedCarpet:8>,
+	<securitycraft:reinforcedCarpet:9>,
+	<securitycraft:reinforcedCarpet:10>,
+	<securitycraft:reinforcedCarpet:11>,
+	<securitycraft:reinforcedCarpet:12>,
+	<securitycraft:reinforcedCarpet:13>,
+	<securitycraft:reinforcedCarpet:14>,
+	<securitycraft:reinforcedCarpet:15>,
+	<securitycraft:reinforcedCobblestone>,
+	<securitycraft:reinforcedCompressedBlocks>,
+	<securitycraft:reinforcedCompressedBlocks:1>,
+	<securitycraft:reinforcedCrystalQuartz>,
+	<securitycraft:reinforcedCrystalQuartzSlab>,
+	<securitycraft:reinforcedDirt>,
+	<securitycraft:reinforcedDirtSlab>,
+	<securitycraft:reinforcedDirtSlab:3>,
+	<securitycraft:reinforcedDoubleCrystalQuartzSlab>,
+	<securitycraft:reinforcedDoubleDirtSlab>,
+	<securitycraft:reinforcedDoubleDirtSlab:3>,
+	<securitycraft:reinforcedDoubleStoneSlabs>,
+	<securitycraft:reinforcedDoubleStoneSlabs:1>,
+	<securitycraft:reinforcedDoubleStoneSlabs:2>,
+	<securitycraft:reinforcedDoubleStoneSlabs:3>,
+	<securitycraft:reinforcedDoubleStoneSlabs:4>,
+	<securitycraft:reinforcedDoubleStoneSlabs:5>,
+	<securitycraft:reinforcedDoubleStoneSlabs:6>,
+	<securitycraft:reinforcedDoubleStoneSlabs:7>,
+	<securitycraft:reinforcedDoubleWoodSlabs>,
+	<securitycraft:reinforcedDoubleWoodSlabs:1>,
+	<securitycraft:reinforcedDoubleWoodSlabs:2>,
+	<securitycraft:reinforcedDoubleWoodSlabs:3>,
+	<securitycraft:reinforcedDoubleWoodSlabs:4>,
+	<securitycraft:reinforcedDoubleWoodSlabs:5>,
+	<securitycraft:reinforcedEndStone>,
+	<securitycraft:reinforcedFenceGate>,
+	<securitycraft:reinforcedGlass>,
+	<securitycraft:reinforcedGlassBlock>,
+	<securitycraft:reinforcedGlowstone>,
+	<securitycraft:reinforcedGravel>,
+	<securitycraft:reinforcedHardenedClay>,
+	<securitycraft:reinforcedIronBars>,
+	<securitycraft:reinforcedLogs>,
+	<securitycraft:reinforcedLogs:1>,
+	<securitycraft:reinforcedLogs:2>,
+	<securitycraft:reinforcedLogs:3>,
+	<securitycraft:reinforcedLogs2>,
+	<securitycraft:reinforcedLogs2:1>,
+	<securitycraft:reinforcedMetals>,
+	<securitycraft:reinforcedMetals:1>,
+	<securitycraft:reinforcedMetals:2>,
+	<securitycraft:reinforcedMetals:3>,
+	<securitycraft:reinforcedMossyCobblestone>,
+	<securitycraft:reinforcedNetherBrick>,
+	<securitycraft:reinforcedNetherrack>,
+	<securitycraft:reinforcedObsidian>,
+	<securitycraft:reinforcedPlanks>,
+	<securitycraft:reinforcedPlanks:1>,
+	<securitycraft:reinforcedPlanks:2>,
+	<securitycraft:reinforcedPlanks:3>,
+	<securitycraft:reinforcedPlanks:4>,
+	<securitycraft:reinforcedPlanks:5>,
+	<securitycraft:reinforcedQuartz>,
+	<securitycraft:reinforcedSand>,
+	<securitycraft:reinforcedSandstone>,
+	<securitycraft:reinforcedSandstone:1>,
+	<securitycraft:reinforcedSandstone:2>,
+	<securitycraft:reinforcedStainedGlass>,
+	<securitycraft:reinforcedStainedGlass:1>,
+	<securitycraft:reinforcedStainedGlass:2>,
+	<securitycraft:reinforcedStainedGlass:3>,
+	<securitycraft:reinforcedStainedGlass:4>,
+	<securitycraft:reinforcedStainedGlass:5>,
+	<securitycraft:reinforcedStainedGlass:6>,
+	<securitycraft:reinforcedStainedGlass:7>,
+	<securitycraft:reinforcedStainedGlass:8>,
+	<securitycraft:reinforcedStainedGlass:9>,
+	<securitycraft:reinforcedStainedGlass:10>,
+	<securitycraft:reinforcedStainedGlass:11>,
+	<securitycraft:reinforcedStainedGlass:12>,
+	<securitycraft:reinforcedStainedGlass:13>,
+	<securitycraft:reinforcedStainedGlass:14>,
+	<securitycraft:reinforcedStainedGlass:15>,
+	<securitycraft:reinforcedStainedGlassPanes>,
+	<securitycraft:reinforcedStainedGlassPanes:1>,
+	<securitycraft:reinforcedStainedGlassPanes:2>,
+	<securitycraft:reinforcedStainedGlassPanes:3>,
+	<securitycraft:reinforcedStainedGlassPanes:4>,
+	<securitycraft:reinforcedStainedGlassPanes:5>,
+	<securitycraft:reinforcedStainedGlassPanes:6>,
+	<securitycraft:reinforcedStainedGlassPanes:7>,
+	<securitycraft:reinforcedStainedGlassPanes:8>,
+	<securitycraft:reinforcedStainedGlassPanes:9>,
+	<securitycraft:reinforcedStainedGlassPanes:10>,
+	<securitycraft:reinforcedStainedGlassPanes:11>,
+	<securitycraft:reinforcedStainedGlassPanes:12>,
+	<securitycraft:reinforcedStainedGlassPanes:13>,
+	<securitycraft:reinforcedStainedGlassPanes:14>,
+	<securitycraft:reinforcedStainedGlassPanes:15>,
+	<securitycraft:reinforcedStainedHardenedClay>,
+	<securitycraft:reinforcedStainedHardenedClay:1>,
+	<securitycraft:reinforcedStainedHardenedClay:2>,
+	<securitycraft:reinforcedStainedHardenedClay:3>,
+	<securitycraft:reinforcedStainedHardenedClay:4>,
+	<securitycraft:reinforcedStainedHardenedClay:5>,
+	<securitycraft:reinforcedStainedHardenedClay:6>,
+	<securitycraft:reinforcedStainedHardenedClay:7>,
+	<securitycraft:reinforcedStainedHardenedClay:8>,
+	<securitycraft:reinforcedStainedHardenedClay:9>,
+	<securitycraft:reinforcedStainedHardenedClay:10>,
+	<securitycraft:reinforcedStainedHardenedClay:11>,
+	<securitycraft:reinforcedStainedHardenedClay:12>,
+	<securitycraft:reinforcedStainedHardenedClay:13>,
+	<securitycraft:reinforcedStainedHardenedClay:14>,
+	<securitycraft:reinforcedStainedHardenedClay:15>,
+	<securitycraft:reinforcedStairsAcacia>,
+	<securitycraft:reinforcedStairsBirch>,
+	<securitycraft:reinforcedStairsBrick>,
+	<securitycraft:reinforcedStairsCobblestone>,
+	<securitycraft:reinforcedStairsCrystalQuartz>,
+	<securitycraft:reinforcedStairsDarkoak>,
+	<securitycraft:reinforcedStairsJungle>,
+	<securitycraft:reinforcedStairsNetherBrick>,
+	<securitycraft:reinforcedStairsOak>,
+	<securitycraft:reinforcedStairsQuartz>,
+	<securitycraft:reinforcedStairsSandstone>,
+	<securitycraft:reinforcedStairsSpruce>,
+	<securitycraft:reinforcedStairsStone>,
+	<securitycraft:reinforcedStairsStoneBrick>,
+	<securitycraft:reinforcedStone>,
+	<securitycraft:reinforcedStoneBrick>,
+	<securitycraft:reinforcedStoneBrick:1>,
+	<securitycraft:reinforcedStoneBrick:2>,
+	<securitycraft:reinforcedStoneBrick:3>,
+	<securitycraft:reinforcedStoneSlabs>,
+	<securitycraft:reinforcedStoneSlabs:1>,
+	<securitycraft:reinforcedStoneSlabs:2>,
+	<securitycraft:reinforcedStoneSlabs:3>,
+	<securitycraft:reinforcedStoneSlabs:4>,
+	<securitycraft:reinforcedStoneSlabs:5>,
+	<securitycraft:reinforcedStoneSlabs:6>,
+	<securitycraft:reinforcedStoneSlabs:7>,
+	
+	<securitycraft:reinforcedWoodSlabs>,
+	<securitycraft:reinforcedWoodSlabs:1>,
+	<securitycraft:reinforcedWoodSlabs:2>,
+	<securitycraft:reinforcedWoodSlabs:3>,
+	<securitycraft:reinforcedWoodSlabs:4>,
+	<securitycraft:reinforcedWoodSlabs:5>,
+	<securitycraft:reinforcedWool>,
+	<securitycraft:reinforcedWool:1>,
+	<securitycraft:reinforcedWool:2>,
+	<securitycraft:reinforcedWool:3>,
+	<securitycraft:reinforcedWool:4>,
+	<securitycraft:reinforcedWool:5>,
+	<securitycraft:reinforcedWool:6>,
+	<securitycraft:reinforcedWool:7>,
+	<securitycraft:reinforcedWool:8>,
+	<securitycraft:reinforcedWool:9>,
+	<securitycraft:reinforcedWool:10>,
+	<securitycraft:reinforcedWool:11>,
+	<securitycraft:reinforcedWool:12>,
+	<securitycraft:reinforcedWool:13>,
+	<securitycraft:reinforcedWool:14>,
+	<securitycraft:reinforcedWool:15>,
+	<securitycraft:reinforced_stone_pressure_plate>,
+	//<securitycraft:retinalScanner>,
+	<securitycraft:scIronFence>,
+	<securitycraft:scManual>,
+	<securitycraft:sentry>,
+	<securitycraft:smartModule>,
+	<securitycraft:stairsCrystalQuartz>,
+	<securitycraft:storageModule>,
+	<securitycraft:taser>,
+	<securitycraft:taserPowered>,
+	<securitycraft:trophySystem>,
+	//<securitycraft:universalBlockModifier>,
+	<securitycraft:universalBlockReinforcerLvL1>,
+	<securitycraft:universalBlockReinforcerLvL2>,
+	<securitycraft:universalBlockReinforcerLvL3>,
+	//<securitycraft:universalBlockRemover>,
+	<securitycraft:universalKeyChanger>,
+	//<securitycraft:universalOwnerChanger>,
+	<securitycraft:alarmLit>,
+	<securitycraft:motionActivatedLightOn>,
+	<securitycraft:laser>,
+	<securitycraft:claymoreDefused>,
+	<securitycraft:secretSignWall>,
+	<securitycraft:scannerDoor>,
+	<securitycraft:scannerDoorItem>,
+	<securitycraft:crystalQuartz:1>,
+	<securitycraft:crystalQuartz:2>,
+	<securitycraft:reinforcedCrystalQuartz:1>,
+	<securitycraft:reinforcedCrystalQuartz:2>
+] as IItemStack[];
+
+for item in hidden {
+    NEI.hide(item);
+    item.addTooltip(format.red("This item cannot be crafted."));
+    item.addTooltip(format.red("Type /ct reload once to hide it."));
+}
