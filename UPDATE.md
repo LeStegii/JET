@@ -1,58 +1,58 @@
 ### 2.7.1 Classic
 
 **Changelog:**
-Changed recipe for Liquid Bitumen
-Fixed missing config files
-Disabled forge auto updater
-Fixed some hidden recipes/items for Security Craft
-Changed some Security Craft textures/recipes
+- Changed recipe for Liquid Bitumen
+- Fixed missing config files
+- Disabled forge auto updater
+- Fixed some hidden recipes/items for Security Craft
+- Changed some Security Craft textures/recipes
 
 ### 2.7 Classic
 
 **Changelog:**
-Added EzStorage Mod
-Added Grappeling Hook Mod (only parts)
-Added RoadStuff Mod
-Added OAuth Mod
-Added SecurityCraft Mod (only parts)
-Added Type89 tank (MCHeli Addon)
-Added Type90 tank (MCHeli Addon)
-Removed ReAuth Mod
-Changed recipes
-Changed textures
-Changed item names
+- Added EzStorage Mod
+- Added Grappeling Hook Mod (only parts)
+- Added RoadStuff Mod
+- Added OAuth Mod
+- Added SecurityCraft Mod (only parts)
+- Added Type89 tank (MCHeli Addon)
+- Added Type90 tank (MCHeli Addon)
+- Removed ReAuth Mod
+- Changed recipes
+- Changed textures
+- Changed item names
 
 ### 2.6 Classic
 
 **Changelog:**
-Updated Xaero's Minimap (Fair-play Edition)
-Make Creative Recipes harder
-Disabled Sacred Springs Biome
-Disabled Sacred Rubber Sapling
-Updated many recipes and textures
-Updated configs for Dynamic Surroundings and Better Foliage
-Implemented new fuel system (based on liquid coal)
-Added and updated many oredict entries
-Added CustomNPCs
-Added FoamFix
+- Updated Xaero's Minimap (Fair-play Edition)
+- Make Creative Recipes harder
+- Disabled Sacred Springs Biome
+- Disabled Sacred Rubber Sapling
+- Updated many recipes and textures
+- Updated configs for Dynamic Surroundings and Better Foliage
+- Implemented new fuel system (based on liquid coal)
+- Added and updated many oredict entries
+- Added CustomNPCs
+- Added FoamFix
 
 ### 2.5.1 Classic
 
 **Changelog:**
-Updated Xaero's Minimap (Fair-play Edition)
-Updated CodeChickenCore
+- Updated Xaero's Minimap (Fair-play Edition)
+- Updated CodeChickenCore
 
-This update isn't really necessary if you are already using 2.5 Classic but since CCC changed something related to downloading CCL new players need the update.
+- This update isn't really necessary if you are already using 2.5 Classic but since CCC changed something related to downloading CCL new players need the update.
 
 ### 2.5 Classic
 
 **Changelog:**
-Added Big Reactors
-Added MCHeli Addons
-Added Better Foliage (deactivated)
-Added Dynamic Surroundings (deactivated)
-Updated many mods
-Removed some crafting recipes for turrets
+- Added Big Reactors
+- Added MCHeli Addons
+- Added Better Foliage (deactivated)
+- Added Dynamic Surroundings (deactivated)
+- Updated many mods
+- Removed some crafting recipes for turrets
 
 
 ### 2.4 Classic
