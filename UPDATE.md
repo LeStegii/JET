@@ -1,3 +1,27 @@
+### 2.7.1 Classic
+
+**Changelog:**
+Changed recipe for Liquid Bitumen
+Fixed missing config files
+Disabled forge auto updater
+Fixed some hidden recipes/items for Security Craft
+Changed some Security Craft textures/recipes
+
+### 2.7 Classic
+
+**Changelog:**
+Added EzStorage Mod
+Added Grappeling Hook Mod (only parts)
+Added RoadStuff Mod
+Added OAuth Mod
+Added SecurityCraft Mod (only parts)
+Added Type89 tank (MCHeli Addon)
+Added Type90 tank (MCHeli Addon)
+Removed ReAuth Mod
+Changed recipes
+Changed textures
+Changed item names
+
 ### 2.6 Classic
 
 **Changelog:**
