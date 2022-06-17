@@ -58,41 +58,41 @@
 ### 2.4 Classic
 
 **Changelog:**
-Added: Recipe for 8rnd 12.7x40mm Magazine, Cinnebar Recipes, (OP) Recipe for Fuel truck
-Removed: -
-Fixed: Recipe for Sulfur (Pulverizer), Recipe for Ruby weapon Skin (Biomes O' Plenty), Clientside Explosions
+- Added: Recipe for 8rnd 12.7x40mm Magazine, Cinnebar Recipes, (OP) Recipe for Fuel truck
+- Removed: -
+- Fixed: Recipe for Sulfur (Pulverizer), Recipe for Ruby weapon Skin (Biomes O' Plenty), Clientside Explosions
 
 
 ### 2.3 Classic
 
 **Changelog:**
-Added: Better Builder's Wands, Recipe for MXT-MV Husky TSV
-Removed: MCHELI Container Recipe
-Fixed: Modern Warfare Ores (Thermal Machines), Recipe for Growler ITV, Discord link
+- Added: Better Builder's Wands, Recipe for MXT-MV Husky TSV
+- Removed: MCHELI Container Recipe
+- Fixed: Modern Warfare Ores (Thermal Machines), Recipe for Growler ITV, Discord link
 
 
 ### 2.2 Classic
 
 **Changelog:**
-Added: Minefactory Reloaded, Redstone Arsenal
-Removed: -
-Fixed: configs
+- Added: Minefactory Reloaded, Redstone Arsenal
+- Removed: -
+- Fixed: configs
 
 
 ### 2.1 Classic
 
 **Changelog:**
-Added: Hide Names, optifine batch file
-Removed: -
-Fixed: -
+- Added: Hide Names, optifine batch file
+- Removed: -
+- Fixed: -
 
 
 ### 2.0 Classic
 
 **Changelog:**
-Added: Open Modular Turrets, CraftTweaker, ModTweaker
-Removed: MoreCoalRecipes
-Fixed: Updated many configs, Added many new recipes, Updated Loading Screen
+- Added: Open Modular Turrets, CraftTweaker, ModTweaker
+- Removed: MoreCoalRecipes
+- Fixed: Updated many configs, Added many new recipes, Updated Loading Screen
 
 
 ### 1.4 Classic
