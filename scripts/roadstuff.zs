@@ -17,6 +17,7 @@ mods.nei.NEI.hide(<roadstuff:bitumenBlock>);
 
 // Rename Iron Stick
 <roadstuff:itemIronPart>.displayName = "Aluminium Rod";
+<ore:stickAluminum>.add(<roadstuff:itemIronPart>);
 
 // Aluminium Rod
 recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ore:toolShears>.transformDamage()]);
@@ -24,7 +25,7 @@ recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ore:too
 // Iron Plate
 recipes.addShapeless(<roadstuff:itemIronPart:1>, [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:toolHammer>.reuse()]);
 
-mods.thermalexpansion.Transposer.addFillRecipe(2000, <minecraft:clay_ball>, <roadstuff:itemBitumen:1> * 2, <liquid:coal> * 100);
+mods.thermalexpansion.Transposer.addFillRecipe(2000, <minecraft:clay_ball>, <roadstuff:itemBitumen:1> * 2, <liquid:sludge> * 100);
 <chisel:concrete>.displayName = "Hardened Concrete";
 <chisel:concrete:*>.addTooltip("Makes you run faster when walking on it.");
 
