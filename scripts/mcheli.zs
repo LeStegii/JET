@@ -17,6 +17,7 @@ recipes.remove(<mcheli:uav_station>);
 recipes.remove(<mcheli:uav_station2>);
 recipes.remove(<mcheli:wrench>);
 recipes.remove(<mcheli:drafting_table>);
+recipes.remove(<mcheli:type89>);
 
 // Changing/Adding recipe for vehicles
 recipes.addShaped(<mcheli:growler>, [[null, <ore:blockGlass>, null], [<ore:ingotIron>, null, <ore:ingotIron>], [<ore:dustRedstone>, <ore:blockIron>, <ore:dustRedstone>]]);
@@ -29,6 +30,7 @@ recipes.addShaped(<mcheli:parachute>, [[<ore:clothWhite>, <ore:clothWhite>, <ore
 recipes.addShaped(<mcheli:uav_station>, [[<mw:AluminumPlate>, <ThermalExpansion:material:2>, <mw:AluminumPlate>], [<ore:ingotIron>, <ore:gemRed>, <ore:ingotIron>], [<mw:AluminumPlate>, <ore:blockIron>, <mw:AluminumPlate>]]);
 recipes.addShaped(<mcheli:uav_station2>, [[<ore:clothGreen>, <ThermalExpansion:material:2>, <ore:clothGreen>], [<ore:ingotIron>, <ore:gemRed>, <ore:ingotIron>], [<ore:clothGreen>, <ore:blockIron>, <ore:clothGreen>]]);
 recipes.addShaped(<mcheli:m1129>, [[null, <minecraft:tnt>, null], [<ore:dustRedstone>, <ore:blockIron>, <ore:dustRedstone>], [<ore:blockIron>, <ore:blockIron>, <ore:blockIron>]]);
+recipes.addShaped(<mcheli:type89>, [[<ore:blockIron>, <ore:ingotSteel>, <ore:blockIron>], [null, <ore:blockIron>, null], [<ore:blockIron>, <ore:ingotSteel>, <ore:blockIron>]]);
 <mcheli:m1129>.addTooltip(format.red("Could cause some bugs!"));
 
 // Changing recipe for Fuel (Can)
