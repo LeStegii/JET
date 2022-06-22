@@ -5,7 +5,6 @@ import minetweaker.item.IItemStack;
 recipes.remove(<securitycraft:adminTool>);
 recipes.remove(<securitycraft:alarm>);
 recipes.remove(<securitycraft:alarmLit>);
-//recipes.remove(<securitycraft:blacklistModule>);
 recipes.remove(<securitycraft:blockPocketManager>);
 recipes.remove(<securitycraft:blockPocketWall>);
 recipes.remove(<securitycraft:bogusLava>);
@@ -160,6 +159,7 @@ recipes.addShaped(<securitycraft:keycards:5>, [[<ore:ingotIron>, <ore:ingotIron>
 recipes.addShaped(<securitycraft:keycards:3>.withTag({Uses: 5}), [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:gemTanzanite>, <ore:gemTanzanite>, <ore:gemTanzanite>]]);
 recipes.addShaped(<securitycraft:universalBlockModifier>, [[<ore:ingotTin>, <ore:gemGreen>, <ore:ingotTin>], [<mw:plastic>, <ore:gemRed>, <mw:plastic>], [<ore:ingotTin>, <mw:plastic>, <ore:ingotTin>]]);
 recipes.addShaped(<securitycraft:universalOwnerChanger>, [[<ore:ingotTin>, <minecraft:name_tag>, <ore:ingotTin>], [<mw:plastic>, <ore:gemDiamond>, <mw:plastic>], [<ore:ingotTin>, <mw:plastic>, <ore:ingotTin>]]);
+recipes.addShaped(<securitycraft:universalKeyChanger>, [[<ore:ingotTin>, <customnpcs:npcKey2>, <ore:ingotTin>], [<mw:plastic>, <ore:gemDiamond>, <mw:plastic>], [<ore:ingotTin>, <mw:plastic>, <ore:ingotTin>]]);
 recipes.addShaped(<securitycraft:universalBlockRemover>, [[null, <ore:ingotSteel>, <minecraft:iron_pickaxe>], [null, <ore:gemDiamond>, <ore:ingotSteel>], [<roadstuff:itemIronPart>, null, null]]);
 
 
@@ -173,7 +173,6 @@ recipes.addShaped(<securitycraft:universalBlockRemover>, [[null, <ore:ingotSteel
 <securitycraft:keypad>.addShiftTooltip(format.green("Can be created by right-clicking a frame with a key panel."));
 
 var hidden = [
-	//<securitycraft:blacklistModule>,
 	<securitycraft:mineCut>,
 	<securitycraft:secretSignStanding>,
 	<securitycraft:blockPocketManager>,
@@ -347,7 +346,6 @@ var hidden = [
 	<securitycraft:reinforcedStoneSlabs:5>,
 	<securitycraft:reinforcedStoneSlabs:6>,
 	<securitycraft:reinforcedStoneSlabs:7>,
-	
 	<securitycraft:reinforcedWoodSlabs>,
 	<securitycraft:reinforcedWoodSlabs:1>,
 	<securitycraft:reinforcedWoodSlabs:2>,
@@ -371,7 +369,6 @@ var hidden = [
 	<securitycraft:reinforcedWool:14>,
 	<securitycraft:reinforcedWool:15>,
 	<securitycraft:reinforced_stone_pressure_plate>,
-	//<securitycraft:retinalScanner>,
 	<securitycraft:scIronFence>,
 	<securitycraft:scManual>,
 	<securitycraft:sentry>,
@@ -381,13 +378,9 @@ var hidden = [
 	<securitycraft:taser>,
 	<securitycraft:taserPowered>,
 	<securitycraft:trophySystem>,
-	//<securitycraft:universalBlockModifier>,
 	<securitycraft:universalBlockReinforcerLvL1>,
 	<securitycraft:universalBlockReinforcerLvL2>,
 	<securitycraft:universalBlockReinforcerLvL3>,
-	//<securitycraft:universalBlockRemover>,
-	<securitycraft:universalKeyChanger>,
-	//<securitycraft:universalOwnerChanger>,
 	<securitycraft:alarmLit>,
 	<securitycraft:motionActivatedLightOn>,
 	<securitycraft:laser>,
