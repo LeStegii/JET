@@ -6,6 +6,11 @@
 - Disabled forge auto updater
 - Fixed some hidden recipes/items for Security Craft
 - Changed some Security Craft textures/recipes
+- Fixed Type89 Tank recipe
+- Fixed Gravestone dimension names
+- Disabled Biomes O' Plenty Hot Spring Regeneration
+- Disable Dynamic Surroundings Auroras
+- Fixed Default BetterFPS algorithm (Optifine compatibility)
 
 ### 2.7 Classic
 
