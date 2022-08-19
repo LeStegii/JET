@@ -24,3 +24,6 @@ mods.thermalexpansion.Crucible.addRecipe(8000, <ThermalFoundation:material:516>,
 mods.thermalexpansion.Crucible.addRecipe(8000, <ThermalFoundation:material:2>, <liquid:coal> * 200);
 mods.thermalexpansion.Crucible.addRecipe(8000, <ThermalFoundation:material:3>, <liquid:coal> * 200);
 mods.thermalexpansion.Crucible.addRecipe(8000, <MineFactoryReloaded:sugarcharcoal>, <liquid:coal> * 100);
+
+// Adding recipe for Glowstone
+mods.thermalexpansion.Smelter.addRecipe(5000, <minecraft:glowstone_dust>, <mw:SulfurDust>*2, <minecraft:glowstone_dust>*2, <ThermalExpansion:material:514>, 15);
