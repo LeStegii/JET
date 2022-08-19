@@ -3,6 +3,16 @@ recipes.remove(<chisel:cloudinabottle>);
 recipes.remove(<chisel:upgrade:*>);
 recipes.remove(<chisel:ballomoss>);
 
+recipes.remove(<chisel:purpur>);
+recipes.remove(<chisel:purpur:1>);
+mods.chisel.Groups.removeVariation(<chisel:purpur>);
+mods.chisel.Groups.removeVariation(<chisel:purpur:1>);
+mods.chisel.Groups.addVariation("purpur", <etfuturum:purpur_block>);
+mods.chisel.Groups.addVariation("purpur", <etfuturum:purpur_pillar>);
+#mods.nei.NEI.hide(<chisel:purpur>);
+#mods.nei.NEI.hide(<chisel:purpur:1>);
+
+
 // Chaning Upgrade recipes
 recipes.addShapeless(<chisel:upgrade:0>, [<minecraft:sugar>, <mw:Electronics>]);
 recipes.addShapeless(<chisel:upgrade:1>, [<minecraft:hopper>, <mw:Electronics>]);
