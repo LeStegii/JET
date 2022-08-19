@@ -34,3 +34,19 @@ recipes.addShaped(<roadstuff:asphaltBlock>*8, [[<minecraft:gravel>, <roadstuff:i
 furnace.addRecipe(<roadstuff:concreteBlock>, <minecraft:gravel>);
 furnace.addRecipe(<chisel:concrete:10>, <roadstuff:asphaltBlock:0>);
 furnace.addRecipe(<chisel:concrete>, <roadstuff:concreteBlock>);
+
+
+// Aluminium Rod
+recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <minecraft:shears>.anyDamage().transformDamage()]);
+recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsWood>.anyDamage().transformDamage()]);
+recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsStone>.anyDamage().transformDamage()]);
+recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsDiamond>.anyDamage().transformDamage()]);
+recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsGold>.anyDamage().transformDamage()]);
+recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsCopper>.anyDamage().transformDamage()]);
+recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsTin>.anyDamage().transformDamage()]);
+recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsSilver>.anyDamage().transformDamage()]);
+recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsLead>.anyDamage().transformDamage()]);
+recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsNickel>.anyDamage().transformDamage()]);
+recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsInvar>.anyDamage().transformDamage()]);
+recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsBronze>.anyDamage().transformDamage()]);
+recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsPlatinum>.anyDamage().transformDamage()]);
