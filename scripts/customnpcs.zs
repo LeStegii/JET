@@ -118,6 +118,9 @@ recipes.addShaped(<customnpcs:npcKey2>, [[null, <ore:ingotIron>, <ore:ingotIron>
 recipes.addShapeless(<customnpcs:npcLetter>, [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <ore:dyeBlack>]);
 recipes.addShapeless(<customnpcs:npcBlueprint>, [<customnpcs:npcPlans>, <ore:dyeBlue>]);
 recipes.addShaped(<customnpcs:npcPlans>, [[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<minecraft:paper>, <customnpcs:npcLetter>, <minecraft:paper>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
+recipes.addShaped(<customnpcs:npcSlingshot>, [[<ore:logWood>, <minecraft:string>, <ore:logWood>], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>], [null, <ore:stickWood>, null]]);
+
+<customnpcs:npcSlingshot>.addTooltip(format.gray("Shoots cobblestone."));
 
 // Hide all the other things in NEI
 NEI.hide(<customnpcs:npcCarpentyBench:*>);
@@ -208,7 +211,6 @@ NEI.hide(<customnpcs:npcCombatKnive>);
 NEI.hide(<customnpcs:npcMacuahuitl>);
 NEI.hide(<customnpcs:npcBoStaff>);
 NEI.hide(<customnpcs:npcSaiBlade>);
-NEI.hide(<customnpcs:npcSlingshot>);
 NEI.hide(<customnpcs:npcMusket>);
 NEI.hide(<customnpcs:npcLeafBlade>);
 NEI.hide(<customnpcs:npcCrossbow>);
