@@ -1,0 +1,7 @@
+{
+    "name": "engine_rotary",
+    "texture": "engine_rotary",
+	"ore-dictionary": [
+		"engine"
+	]
+}

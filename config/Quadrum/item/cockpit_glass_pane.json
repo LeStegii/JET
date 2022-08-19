@@ -1,0 +1,7 @@
+{
+    "name": "cockpit_glass_pane",
+    "texture": "cockpit_glass_pane",
+	"ore-dictionary": [
+		"paneGlass"
+	]
+}

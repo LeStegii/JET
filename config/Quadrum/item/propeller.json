@@ -1,0 +1,7 @@
+{
+    "name": "propeller",
+    "texture": "propeller",
+	"ore-dictionary": [
+		"partRotary"
+	]
+}

@@ -1,0 +1,1 @@
+recipes.addShaped(<mcheli:bnr32>, [[<ore:paneGlassColorless>, <ore:bodyCar>, <ore:sheetPlastic>]]);
