@@ -33,3 +33,6 @@ recipes.addShaped(<MineFactoryReloaded:plastic.cup>*3, [[<MineFactoryReloaded:pl
 
 // Changing Hammer recipe
 recipes.addShaped(<MineFactoryReloaded:hammer>, [[<ore:sheetPlastic>, <ore:sheetPlastic>, <ore:sheetPlastic>], [null, <ore:stickWood>, null], [null, <ore:plankWood>, null]]);
+
+<ore:listAllbeefraw>.add(<MineFactoryReloaded:meat.ingot.raw>);
+<ore:listAllbeefcooked>.add(<MineFactoryReloaded:meat.ingot.cooked>);
