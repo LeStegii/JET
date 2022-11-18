@@ -121,6 +121,9 @@ recipes.addShaped(<customnpcs:npcPlans>, [[<minecraft:paper>, <minecraft:paper>,
 recipes.addShaped(<customnpcs:npcSlingshot>, [[<ore:logWood>, <minecraft:string>, <ore:logWood>], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>], [null, <ore:stickWood>, null]]);
 
 <customnpcs:npcSlingshot>.addTooltip(format.gray("Shoots cobblestone."));
+<customnpcs:npcTombstone>.displayName = "Gravestone";
+<customnpcs:npcTombstone:1>.displayName = "Gravestone";
+<customnpcs:npcTombstone:2>.displayName = "Gravestone";
 
 // Hide all the other things in NEI
 NEI.hide(<customnpcs:npcCarpentyBench:*>);
