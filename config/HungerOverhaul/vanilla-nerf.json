@@ -172,6 +172,26 @@
 		},
 		{
 			// the name of the item in "mod:name" format
+			"name": "minecraft:bread",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 3,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "minecraft:pumpkin_pie",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 4,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
 			"name": "BiomesOPlenty:food",
 			// [optional] the metadata value of the item (default: 0)
 			"meta": 2,
@@ -196,7 +216,7 @@
 			// [optional] the metadata value of the item (default: 0)
 			"meta": 0,
 			// the hunger value of the item (1 hunger = 1/2 hunger bar)
-			"hunger": 1,
+			"hunger": 3,
 			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
 			"saturationModifier": 1
 		},
@@ -216,7 +236,7 @@
 			// [optional] the metadata value of the item (default: 0)
 			"meta": 0,
 			// the hunger value of the item (1 hunger = 1/2 hunger bar)
-			"hunger": 4,
+			"hunger": 3,
 			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
 			"saturationModifier": 1
 		},
@@ -226,7 +246,7 @@
 			// [optional] the metadata value of the item (default: 0)
 			"meta": 0,
 			// the hunger value of the item (1 hunger = 1/2 hunger bar)
-			"hunger": 4,
+			"hunger": 5,
 			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
 			"saturationModifier": 1
 		},
@@ -262,7 +282,7 @@
 		},
 		{
 			// the name of the item in "mod:name" format
-			"name": "MineFactoryReloaded:meat.ingot.raw",
+			"name": "MineFactoryReloaded:meat.ingot.cooked",
 			// [optional] the metadata value of the item (default: 0)
 			"meta": 0,
 			// the hunger value of the item (1 hunger = 1/2 hunger bar)
