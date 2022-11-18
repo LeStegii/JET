@@ -18,6 +18,7 @@ recipes.remove(<mcheli:uav_station2>);
 recipes.remove(<mcheli:wrench>);
 recipes.remove(<mcheli:drafting_table>);
 recipes.remove(<mcheli:type89>);
+recipes.remove(<mcheli:chain>);
 
 // Changing/Adding recipe for vehicles
 recipes.addShaped(<mcheli:growler>, [[null, <ore:blockGlass>, null], [<ore:ingotIron>, null, <ore:ingotIron>], [<ore:dustRedstone>, <ore:blockIron>, <ore:dustRedstone>]]);
@@ -38,6 +39,7 @@ recipes.addShaped(<mcheli:fuel:600>, [[null, <ore:nuggetIron>, null], [<ore:dyeG
 
 // Adding recipe for (Creative) Fuel Truck
 recipes.addShaped(<mcheli:fuel_truck>, [[<mcheli:fuel:0>, <ThermalFoundation:bucket:5>, <mcheli:fuel:0>], [<ThermalFoundation:bucket:5>, <ThermalExpansion:Tank:4>, <ThermalFoundation:bucket:5>], [<mcheli:fuel:0>, <ThermalFoundation:bucket:5>, <mcheli:fuel:0>]]);
+recipes.addShaped(<mcheli:chain>*2, [[null, <ore:nuggetIron>, <ore:ingotIron>], [<ore:nuggetIron>, <ore:ingotIron>, <ore:nuggetIron>], [<ore:ingotIron>, <ore:nuggetIron>, null]]);
 
 // Adding recipe for filling Fuel (Can) with Liquid Coal
 mods.thermalexpansion.Transposer.addFillRecipe(500, <mcheli:fuel:600>, <mcheli:fuel:0>, <liquid:coal> * 500);
