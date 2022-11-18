@@ -1,23 +1,40 @@
 {
     "images":
     {
-        "title":
-        {
-            "image" : "custommainmenu:textures/gui/logo.png",
-            "posX" : -130,
-            "posY" : 10,
-            "width" : 130,
-            "height" : 130,
-            "alignment" : "top_right"
-        },
         "black":
         {
-            "image" : "custommainmenu:textures/gui/transparent2.png",
+            "image" : "custommainmenu:textures/gui/transparent.png",
             "posX" : 50,
             "posY" : 0,
             "width" : 130,
             "height" : 2000,
             "alignment" : "top_left"
+        },
+		"logo":
+        {
+            "image" : "custommainmenu:textures/gui/logo.png",
+            "posX" : 50,
+            "posY" : -120,
+            "width" : 130,
+            "height" : 38,
+            "alignment" : "left_center"
+        }
+    },
+    
+    "texts":
+    {
+        "byKettleMC":
+        {
+            "text" : "by KettleMC.net",
+            "posX" : 59,
+            "posY" : -73,
+            "fontSize" : "1.5",
+            "alignment" : "left_center",
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://KettleMC.net"
+            }
         }
     },
     
@@ -41,7 +58,8 @@
                 "gui" : "singleplayer"
             }
         },
-		"Mehrspieler":
+		
+		"multiplayer":
         {
             "text" : "menu.multiplayer",
             "posX" : 55,
@@ -60,7 +78,7 @@
             }
         },
 		
-        "Server":
+        "server":
         {
             "text" : "Server",
             "posX" : 55,
@@ -115,6 +133,44 @@
                 "type" : "quit"
             }
         },
+		
+		"refresh":
+        {
+            "text" : "",
+            "posX" : 55,
+            "posY" : -24,
+            "width" : 20,
+            "height" : 20,
+            "imageWidth" : 512,
+            "imageHeight" : 512,
+            "alignment" : "bottom_left",
+            "texture" : "custommainmenu:textures/gui/refresh.png",
+            "tooltip" : "Refresh",
+            "action" :
+            {
+                "type": "refresh"
+            }
+        },
+		
+        "discord":
+        {
+            "text" : "",
+            "posX" : 80,
+            "posY" : -24,
+            "width" : 20,
+            "height" : 20,
+            "imageWidth" : 512,
+            "imageHeight" : 512,
+            "alignment" : "bottom_left",
+            "texture" : "custommainmenu:textures/gui/discord.png",
+            "tooltip" : "Discord",
+            "action" :
+            {
+                "type": "openLink",
+                "link" : "https://discord.gg/f9P9HEj"
+            }
+        },
+		
 		"website":
         {
             "text" : "",
@@ -122,8 +178,8 @@
             "posY" : -24,
             "width" : 20,
             "height" : 20,
-            "imageWidth" : 505,
-            "imageHeight" : 510,
+            "imageWidth" : 512,
+            "imageHeight" : 512,
             "alignment" : "bottom_left",
             "texture" : "custommainmenu:textures/gui/website.png",
             "tooltip" : "Website",
@@ -132,68 +188,27 @@
                 "type": "openLink",
                 "link" : "https://KettleMC.net"
             }
-        },  
-        "discord":
-        {
-            "text" : "",
-            "posX" : 80,
-            "posY" : -24,
-            "width" : 20,
-            "height" : 20,
-            "imageWidth" : 245,
-            "imageHeight" : 240,
-            "alignment" : "bottom_left",
-            "texture" : "custommainmenu:textures/gui/discord2.png",
-            "tooltip" : "Discord",
-            "action" :
-            {
-                "type": "openLink",
-                "link" : "https://discord.gg/f9P9HEj"
-            }
-        },
-		"regeln":
-        {
-            "text" : "",
-            "posX" : 55,
-            "posY" : -25,
-            "width" : 20,
-            "height" : 20,
-            "imageWidth" : 505,
-            "imageHeight" : 510,
-            "alignment" : "bottom_left",
-            "texture" : "custommainmenu:textures/gui/Datei.png",
-            "tooltip" : "Rules / Terms of Service",
-            "action" :
-            {
-                "type": "openLink",
-                "link" : "https://KettleMC.net"
-            }
         }
     },
-    
-    "texts":
-    {
-        "JET":
-        {
-            "text" : "JET",
-            "posX" : 80,
-            "posY" : -90,
-            "fontSize" : "4",
-            "alignment" : "left_center"
-        }
-    },
-    
+	
     "other":
     {
         "background":
         {
-        "image" : "",
-        "slideshow":
-        {
-        "images" : ["custommainmenu:textures/bg/back1.png","custommainmenu:textures/bg/back2.png","custommainmenu:textures/bg/back3.png","custommainmenu:textures/bg/back4.png","custommainmenu:textures/bg/back5.png","custommainmenu:textures/bg/back6.png","custommainmenu:textures/bg/back7.png","custommainmenu:textures/bg/back8.png","custommainmenu:textures/bg/back9.png"],
-         "displayDuration" : 100,
-         "fadeDuration" : 40
-        }
+			"image" : "",
+			"slideshow":
+			{
+				"images" : 
+				[
+					"custommainmenu:textures/background/menu1.png",
+					"custommainmenu:textures/background/menu2.png",
+					"custommainmenu:textures/background/menu3.png",
+					"custommainmenu:textures/background/menu4.png",
+					"custommainmenu:textures/background/menu5.png"
+				],
+				"displayDuration" : 100,
+				"fadeDuration" : 15
+			}
         }
     }
 }

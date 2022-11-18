@@ -1,0 +1,7 @@
+{
+    "name": "mana_ingot",
+    "texture": "mana_ingot",
+	"ore-dictionary": [
+		"ingotMana"
+	]
+}
