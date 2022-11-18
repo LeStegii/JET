@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Minecraft JET",
-  "version": "2.7.1 Classic",
+  "version": "2.8.0 Classic",
   "author": "UeberallGebannt",
   "files": [
     {
@@ -232,6 +232,81 @@
     {
       "projectID": 70631,
       "fileID": 2277490,
+      "required": true
+    },
+    {
+      "projectID": 223773,
+      "fileID": 2213127,
+      "required": true
+    },
+    {
+      "projectID": 221857,
+      "fileID": 2270206,
+      "required": true
+    },
+    {
+      "projectID": 231262,
+      "fileID": 2241397,
+      "required": true
+    },
+    {
+      "projectID": 232717,
+      "fileID": 2549085,
+      "required": true
+    },
+    {
+      "projectID": 224472,
+      "fileID": 2530879,
+      "required": true
+    },
+    {
+      "projectID": 224476,
+      "fileID": 2332505,
+      "required": true
+    },
+    {
+      "projectID": 225635,
+      "fileID": 2284130,
+      "required": true
+    },
+    {
+      "projectID": 225251,
+      "fileID": 2282522,
+      "required": true
+    },
+    {
+      "projectID": 441392,
+      "fileID": 3863343,
+      "required": true
+    },
+    {
+      "projectID": 290861,
+      "fileID": 2649586,
+      "required": true
+    },
+    {
+      "projectID": 259230,
+      "fileID": 4007729,
+      "required": true
+    },
+    {
+      "projectID": 387444,
+      "fileID": 3947430,
+      "required": true
+    },
+    {
+      "projectID": 225608,
+      "fileID": 2309699,
+      "required": true
+    },
+    {
+      "projectID": 253043,
+      "fileID": 2430662,
+      "required": true
+    },
+    {
+      "projectID": 252907,
+      "fileID": 2516117,
       "required": true
     }
   ],
