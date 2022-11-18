@@ -16,14 +16,6 @@ var gardens = [
 	<harvestthenether:netherGarden>
 ] as IItemStack[];
 
-var remove = [
-	<harvestcraft:sink:1>,
-	<harvestcraft:sink:2>,
-	<harvestcraft:sink:3>,
-	<harvestcraft:ovenon>,
-	<harvestcraft:churnon>,
-	<harvestcraft:quernon>
-] as IItemStack[];
 
 for garden in gardens {
     garden.addTooltip(format.yellow("Press SHIFT for more information."));
@@ -54,14 +46,18 @@ for bait in baits {
 <harvestcraft:animaltrap>.addShiftTooltip(format.green("When put in a one block deep dirt hole, it will catch animals."));
 <harvestcraft:animaltrap>.addShiftTooltip(format.green("Requires bait in order to work."));
 
+<harvestcraft:beehive>.addTooltip(format.yellow("Press SHIFT for more information."));
+<harvestcraft:beehive>.addShiftTooltip(format.green("Drops Queen Bees for the usage in Apiaries."));
+<harvestcraft:beehive>.addShiftTooltip(format.green("Beehives can also be found in the world."));
+
+<harvestcraft:apiary>.addTooltip(format.yellow("Press SHIFT for more information."));
+<harvestcraft:apiary>.addShiftTooltip(format.green("Put a Queen Bee into the slot and wait for it to produce items."));
+<harvestcraft:apiary>.addShiftTooltip(format.green("Place flowers around it to make the production faster."));
 
 recipes.remove(<harvestcraft:presser>);
 recipes.addShaped(<harvestcraft:presser>, [[<mw:AluminumPlate>, <minecraft:piston>, <mw:AluminumPlate>], [<ore:ingotIron>, null, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:piston>, <ore:ingotIron>]]);
-
-for toRemove in remove {
-	mods.nei.NEI.hide(toRemove);
-	recipes.remove(toRemove);
-}
+recipes.addShaped(<harvestcraft:bakewareItem>, [[<BiomesOPlenty:misc:0>, <BiomesOPlenty:misc:0>, <BiomesOPlenty:misc:0>], [<BiomesOPlenty:misc:0>, null, <BiomesOPlenty:misc:0>], [<BiomesOPlenty:misc:0>, <BiomesOPlenty:misc:0>, <BiomesOPlenty:misc:0>]]);
+recipes.addShaped(<harvestcraft:beehive>, [[<harvestcraft:pamPaperbark>, <ore:honeyCombFilled>, <harvestcraft:pamPaperbark>], [<harvestcraft:pamPaperbark>, <ore:honeyCombFilled>, <harvestcraft:pamPaperbark>], [<harvestcraft:pamPaperbark>, <ore:honeyCombFilled>, <harvestcraft:pamPaperbark>]]);
 
 <harvestcraft:sink>.displayName = "Sink";
 <harvestcraft:rabbitrawItem>.displayName = "Raw Bunny";
