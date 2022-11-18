@@ -70,10 +70,15 @@ mods.thermalexpansion.Smelter.addRecipe(4000, <mw:TantalumOre>, <ThermalFoundati
 mods.thermalexpansion.Smelter.addRecipe(4000, <mw:TitaniumOre>, <ThermalFoundation:material:20>, <mw:TitaniumIngot> * 3, <ThermalFoundation:material:66>, 100);
 mods.thermalexpansion.Smelter.addRecipe(4000, <mw:SiliconOre>, <ThermalFoundation:material:20>, <mw:Silicon> * 3);
 
+<mw:GasGrenade>.addTooltip(format.red("Don't use this item, it makes your world unplayable!"));
+
 // New Plastic recipe
 mods.thermalexpansion.Smelter.addRecipe(4000, <MineFactoryReloaded:plastic.raw>, <BiomesOPlenty:misc:1>, <mw:plastic>, <mw:plastic>, 50);
 <mw:plastic>.displayName = "Dark Plastic";
 <mw:SV98Mag>.displayName = "10rnd 7.62x54mm Magazine (SV-98)";
+<mw:mkvi_helmet>.displayName = "Master Chief Helmet";
+<mw:mkvi_chest>.displayName = "Master Chief Chestplate";
+<mw:mkvi_boots>.displayName = "Master Chief Boots";
 
 // New Gas Mask recipe
 recipes.addShaped(<mw:m40gasmask_helmet>, [[<minecraft:stained_glass_pane:15>, <mw:GreenCloth>, <minecraft:stained_glass_pane:15>], [<mw:GreenCloth>, <ore:dustCharcoal>, <mw:GreenCloth>], [<mw:MiniSteelPlate>, <mw:GreenCloth>, <mw:MiniSteelPlate>]]);
