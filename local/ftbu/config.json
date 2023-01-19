@@ -34,9 +34,7 @@
     "motd": [
       "Have fun while playing JET!"
     ],
-    "starting_items": [
-      "minecraft:air 0 0"
-    ]
+    "starting_items": []
   },
   "permissions_admin": {
     "allow_creative_interact_secure": true,
