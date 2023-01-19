@@ -386,7 +386,7 @@ var removeAndHide = [
 	<mw:VSSVintorezAction>,
 	<mw:AK12action>,
 	<mw:M107action>,
-	<mw:ScarAction>
+	<mw:ScarAction>,
 	<mw:PythonClip>,
 	<mw:GrenadeSafetyPin>,
 	<mw:G36Action>
