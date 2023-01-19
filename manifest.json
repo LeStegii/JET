@@ -10,9 +10,9 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Minecraft JET",
+  "name": "Minecraft JET 2.8.0 Update Classic",
   "version": "2.8.0 Classic",
-  "author": "UeberallGebannt",
+  "author": "LeStegii",
   "files": [
     {
       "projectID": 228529,
@@ -57,16 +57,6 @@
     {
       "projectID": 237167,
       "fileID": 2291433,
-      "required": true
-    },
-    {
-      "projectID": 222211,
-      "fileID": 2302312,
-      "required": true
-    },
-    {
-      "projectID": 222213,
-      "fileID": 3293859,
       "required": true
     },
     {
@@ -275,11 +265,6 @@
       "required": true
     },
     {
-      "projectID": 441392,
-      "fileID": 3863343,
-      "required": true
-    },
-    {
       "projectID": 259230,
       "fileID": 4007729,
       "required": true
@@ -297,6 +282,31 @@
     {
       "projectID": 252907,
       "fileID": 2516117,
+      "required": true
+    },
+    {
+      "projectID": 746279,
+      "fileID": 4192685,
+      "required": true
+    },
+    {
+      "projectID": 358228,
+      "fileID": 4301348,
+      "required": true
+    },
+    {
+      "projectID": 688894,
+      "fileID": 4030043,
+      "required": true
+    },
+    {
+      "projectID": 513764,
+      "fileID": 4262699,
+      "required": true
+    },
+    {
+      "projectID": 441392,
+      "fileID": 4337328,
       "required": true
     }
   ],
