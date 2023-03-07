@@ -1,3 +1,30 @@
+### 2.8 Classic
+
+**Changelog:**
+- Added Quadrum
+- Added Pam's HarvestCraft
+- Added Et Futurum Requiem
+- Added Agricraft
+- Added NEI Integration
+- Added D-Mod (Foxes and Bundles)
+- Added Loading Progress Par
+- Added Modern Splash
+- Added TabFaces
+- Added Optifine Check
+- Added GTNH Lib
+- Added Village Names
+- Replaced CodeChickenCore with CodeChickenCore Unofficial by GTNH
+- Replaced NotEnoughItems with NotEnoughItems Unofficial by GTNH
+- Renamed Biomes O' Plenty Honey to Wasp Honey
+- Reimplemented CustomNPCs Slingshot
+- Added recipe for Slingshot
+- Added recipe for Glowstone
+- Fixed recipe for Aluminium Rods
+- Fixed default keybinds
+- Changed creative item recipes
+- Added new recipe ingredients
+- Cleaned up NEI item list (removed invalid/broken items)
+
 ### 2.7.1 Classic
 
 **Changelog:**
