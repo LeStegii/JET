@@ -3,28 +3,43 @@
 **Changelog:**
 - Added Quadrum
 - Added Pam's HarvestCraft
+- Added Pam's HarvestCraft the Nether
+- Added JAFFA Foods (A HarvestCraft Addon)
 - Added Et Futurum Requiem
 - Added Agricraft
+- Added AppleCore
 - Added NEI Integration
 - Added D-Mod (Foxes and Bundles)
 - Added Loading Progress Par
 - Added Modern Splash
 - Added TabFaces
 - Added Optifine Check
+- Added Hunger Overhaul
 - Added GTNH Lib
+- Added Campfire Backport
 - Added Village Names
+- Added WanionLib
+- Added Bigger Crafting Tables
 - Replaced CodeChickenCore with CodeChickenCore Unofficial by GTNH
 - Replaced NotEnoughItems with NotEnoughItems Unofficial by GTNH
 - Renamed Biomes O' Plenty Honey to Wasp Honey
+- Renamed Tombstone to Gravestone 
 - Reimplemented CustomNPCs Slingshot
+- Added recipe for Nametag
 - Added recipe for Slingshot
 - Added recipe for Glowstone
 - Fixed recipe for Aluminium Rods
 - Fixed default keybinds
+- Fixed purpur chisel group
+- Fixed names for MKVI armor
+- Changed many aspects of HarvestCraft
+- Change MCHeli chain recipe 
 - Changed creative item recipes
-- Added new recipe ingredients
+- Changed recipe for chisel moss ball 
+- Added warning to MW gas grenade 
 - Cleaned up NEI item list (removed invalid/broken items)
-- Updated Main menu background
+- Removed unused BOP items and add gravestone recipe 
+- Added Meat ingots to oredict lists 
 
 ### 2.7.1 Classic
 
