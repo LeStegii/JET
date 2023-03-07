@@ -24,6 +24,7 @@
 - Changed creative item recipes
 - Added new recipe ingredients
 - Cleaned up NEI item list (removed invalid/broken items)
+- Updated Main menu background
 
 ### 2.7.1 Classic
 
