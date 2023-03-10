@@ -20,6 +20,12 @@
 - Added Village Names
 - Added WanionLib
 - Added Bigger Crafting Tables
+- Updated Biomes O' Plenty (1.7.10-2.1.0.1889 -> 1.7.10-2.1.0.2308)
+- Updated CodeChickenCore Unofficial 1.7.10 (1.1.6 -> 1.1.11)
+- Updated Foam​Fix (1.0.0 -> 1.0.3)
+- Updated Minefactory Reloaded (2.8.1-174 -> 2.8.2B1-201)
+- Updated OAuth (1.06.1 -> 1.1.13)
+- Updated Xaero's Minimap (Fair-play Edition) (FP21.10.22 -> FP21.10.30)
 - Replaced CodeChickenCore with CodeChickenCore Unofficial by GTNH
 - Replaced NotEnoughItems with NotEnoughItems Unofficial by GTNH
 - Renamed Biomes O' Plenty Honey to Wasp Honey
