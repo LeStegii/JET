@@ -48,6 +48,7 @@ recipes.remove(<mw:Evangelion>);
 recipes.remove(<mw:Chrome>);
 recipes.remove(<mw:Murasaki>);
 recipes.remove(<mw:Holographic2>);
+recipes.remove(<mw:LaserPointer>);
 
 
 // New Steel recipe

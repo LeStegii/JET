@@ -12,3 +12,7 @@ mods.thermalexpansion.Smelter.addRecipe(4000, <minecraft:glass>*2, <BigReactors:
 furnace.remove(<BigReactors:BRIngot:2>);
 furnace.addRecipe(<BigReactors:BRIngot:2>, <minecraft:coal:0>);
 furnace.addRecipe(<BigReactors:BRIngot:2>, <ore:dustGraphite>);
+
+recipes.remove(<BigReactors:BRIngot:1>);
+recipes.addShapeless(<BigReactors:BRIngot:1>*9, [<BigReactors:BRMetalBlock:1>]);
+<BigReactors:BRIngot:1>.addTooltip(format.aqua("Can be produced by burning Yellorium in a reactor."));

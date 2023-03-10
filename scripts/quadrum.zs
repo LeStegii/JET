@@ -16,6 +16,30 @@ recipes.addShapeless(<Quadrum:mana_nugget>*9, [
 	<Quadrum:mana_ingot>
 ]);
 
+
+recipes.addShapeless(<Quadrum:steel_nugget>*9, [
+	<mw:SteelIngot>
+]);
+
+
+recipes.addShapeless(<mw:SteelIngot>, [
+	<Quadrum:steel_nugget>,
+	<Quadrum:steel_nugget>,
+	<Quadrum:steel_nugget>,
+	<Quadrum:steel_nugget>,
+	<Quadrum:steel_nugget>,
+	<Quadrum:steel_nugget>,
+	<Quadrum:steel_nugget>,
+	<Quadrum:steel_nugget>,
+	<Quadrum:steel_nugget>
+]);
+
+recipes.addShaped(<Quadrum:creative_core>, [
+	[<roadstuff:itemBitumen:1>, <MineFactoryReloaded:pinkslime:1>, <roadstuff:itemBitumen:1>],
+	[<MineFactoryReloaded:pinkslime:1>, <ore:blockNetherite>, <MineFactoryReloaded:pinkslime:1>],
+	[<roadstuff:itemBitumen:1>, <MineFactoryReloaded:pinkslime:1>, <roadstuff:itemBitumen:1>]
+]);
+
 // Recipes for vehicle parts (coming soon)
 /*
 recipes.addShapeless(<mw:SteelIngot>, [<Quadrum:steel_nugget>, <Quadrum:steel_nugget>, <Quadrum:steel_nugget>, <Quadrum:steel_nugget>, <Quadrum:steel_nugget>, <Quadrum:steel_nugget>, <Quadrum:steel_nugget>, <Quadrum:steel_nugget>, <Quadrum:steel_nugget>]);
