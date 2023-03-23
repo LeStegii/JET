@@ -1,0 +1,7 @@
+{
+    "name": "creative_core",
+    "texture": "creative_core",
+	"ore-dictionary": [
+		"coreCreative"
+	]
+}
