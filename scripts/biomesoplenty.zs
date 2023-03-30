@@ -8,6 +8,8 @@ import minetweaker.item.IItemStack;
 <BiomesOPlenty:food:9>.displayName = "Filled Nether Wasp Honeycomb";
 <BiomesOPlenty:misc:2>.displayName = "Empty Nether Wasp Honeycomb";
 <BiomesOPlenty:food:11>.displayName = "Purple Turnip";
+<BiomesOPlenty:jarFilled:0>.displayName = "Nether Wasp Honey Jar";
+<BiomesOPlenty:bopBucket>.withTag({Fluid: {FluidName: "honey"}}).displayName = "Nether Wasp Honey Bucket";
 
 <BiomesOPlenty:moss>.addTooltip("Can be found in swamp like biomes.");
 
