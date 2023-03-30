@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Minecraft JET",
-  "version": "2.8.0 Classic",
+  "version": "2.8.0 Classic PR5",
   "author": "UeberallGebannt",
   "files": [
     {
@@ -42,11 +42,6 @@
     {
       "projectID": 278494,
       "fileID": 4412744,
-      "required": true
-    },
-    {
-      "projectID": 59218,
-      "fileID": 2227503,
       "required": true
     },
     {
@@ -240,11 +235,6 @@
       "required": true
     },
     {
-      "projectID": 746280,
-      "fileID": 4388255,
-      "required": true
-    },
-    {
       "projectID": 252907,
       "fileID": 2516117,
       "required": true
@@ -337,6 +327,11 @@
     {
       "projectID": 239197,
       "fileID": 2838720,
+      "required": true
+    },
+    {
+      "projectID": 225880,
+      "fileID": 2311063,
       "required": true
     }
   ],
