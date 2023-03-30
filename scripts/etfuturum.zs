@@ -64,6 +64,22 @@ mods.thermalexpansion.Smelter.removeRecipe(<ThermalExpansion:material:515>, <etf
 mods.thermalexpansion.Smelter.removeRecipe(<ThermalFoundation:material:512>, <etfuturum:ancient_debris>);
 mods.thermalexpansion.Smelter.removeRecipe(<ThermalFoundation:material:20>, <etfuturum:ancient_debris>);
 
+mods.thermalexpansion.Transposer.addFillRecipe(800, <etfuturum:concrete_powder:0>, <etfuturum:concrete:0>, <liquid:water> * 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(800, <etfuturum:concrete_powder:1>, <etfuturum:concrete:1>, <liquid:water> * 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(800, <etfuturum:concrete_powder:2>, <etfuturum:concrete:2>, <liquid:water> * 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(800, <etfuturum:concrete_powder:3>, <etfuturum:concrete:3>, <liquid:water> * 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(800, <etfuturum:concrete_powder:4>, <etfuturum:concrete:4>, <liquid:water> * 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(800, <etfuturum:concrete_powder:5>, <etfuturum:concrete:5>, <liquid:water> * 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(800, <etfuturum:concrete_powder:6>, <etfuturum:concrete:6>, <liquid:water> * 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(800, <etfuturum:concrete_powder:7>, <etfuturum:concrete:7>, <liquid:water> * 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(800, <etfuturum:concrete_powder:8>, <etfuturum:concrete:8>, <liquid:water> * 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(800, <etfuturum:concrete_powder:9>, <etfuturum:concrete:9>, <liquid:water> * 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(800, <etfuturum:concrete_powder:10>, <etfuturum:concrete:10>, <liquid:water> * 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(800, <etfuturum:concrete_powder:11>, <etfuturum:concrete:11>, <liquid:water> * 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(800, <etfuturum:concrete_powder:12>, <etfuturum:concrete:12>, <liquid:water> * 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(800, <etfuturum:concrete_powder:13>, <etfuturum:concrete:13>, <liquid:water> * 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(800, <etfuturum:concrete_powder:14>, <etfuturum:concrete:14>, <liquid:water> * 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(800, <etfuturum:concrete_powder:15>, <etfuturum:concrete:15>, <liquid:water> * 1000);
 
 recipes.addShaped(<etfuturum:netherite_stairs>, [[null, null, <ore:blockNetherite>], [null, <ore:blockNetherite>, <ore:blockNetherite>], [<ore:blockNetherite>, <ore:blockNetherite>, <ore:blockNetherite>]]);
 
