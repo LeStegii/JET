@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Minecraft JET",
-  "version": "2.8.0 Classic PR5",
+  "version": "2.8.0 Classic PR8",
   "author": "UeberallGebannt",
   "files": [
     {
@@ -96,7 +96,7 @@
     },
     {
       "projectID": 441392,
-      "fileID": 4496069,
+      "fileID": 4516609,
       "required": true
     },
     {
