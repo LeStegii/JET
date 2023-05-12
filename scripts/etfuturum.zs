@@ -59,10 +59,12 @@ mods.thermalexpansion.Smelter.addRecipe(4000, <minecraft:gold_ingot>*4, <etfutur
 
 recipes.remove(<etfuturum:netherite_ingot>);
 
+/*
 mods.thermalexpansion.Smelter.removeRecipe(<minecraft:sand>, <etfuturum:ancient_debris>);
 mods.thermalexpansion.Smelter.removeRecipe(<ThermalExpansion:material:515>, <etfuturum:ancient_debris>);
 mods.thermalexpansion.Smelter.removeRecipe(<ThermalFoundation:material:512>, <etfuturum:ancient_debris>);
 mods.thermalexpansion.Smelter.removeRecipe(<ThermalFoundation:material:20>, <etfuturum:ancient_debris>);
+*/
 
 mods.thermalexpansion.Transposer.addFillRecipe(800, <etfuturum:concrete_powder:0>, <etfuturum:concrete:0>, <liquid:water> * 1000);
 mods.thermalexpansion.Transposer.addFillRecipe(800, <etfuturum:concrete_powder:1>, <etfuturum:concrete:1>, <liquid:water> * 1000);
