@@ -39,7 +39,8 @@
 - Fixed purpur chisel group
 - Fixed names for MKVI armor
 - Changed many aspects of HarvestCraft
-- Change MCHeli chain recipe 
+- Changed many aspects of EtFuturum
+- Changed MCHeli chain recipe 
 - Changed creative item recipes
 - Changed recipe for chisel moss ball 
 - Added warning to MW gas grenade 
