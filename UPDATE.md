@@ -20,20 +20,26 @@
 - Added Village Names
 - Added WanionLib
 - Added Bigger Crafting Tables
-- Updated Biomes O' Plenty (1.7.10-2.1.0.1889 -> 1.7.10-2.1.0.2308)
-- Updated CodeChickenCore Unofficial 1.7.10 (1.1.6 -> 1.1.11)
-- Updated Foam​Fix (1.0.0 -> 1.0.3)
-- Updated Minefactory Reloaded (2.8.1-174 -> 2.8.2B1-201)
-- Updated OAuth (1.06.1 -> 1.1.13)
-- Updated Xaero's Minimap (Fair-play Edition) (FP21.10.22 -> FP21.10.30)
+- Added Loot++
+- Updated Biomes O' Plenty 
+- Updated CodeChickenCore Unofficial 1.7.10 
+- Updated Foam​Fix 
+- Updated Minefactory Reloaded 
+- Updated OAuth 
+- Updated Xaero's Minimap (Fair-play Edition) 
 - Replaced CodeChickenCore with CodeChickenCore Unofficial by GTNH
 - Replaced NotEnoughItems with NotEnoughItems Unofficial by GTNH
 - Renamed Biomes O' Plenty Honey to Wasp Honey
 - Renamed Tombstone to Gravestone 
 - Reimplemented CustomNPCs Slingshot
+- Added new main menu
+- Added a default options file
 - Added recipe for Nametag
 - Added recipe for Slingshot
 - Added recipe for Glowstone
+- Added Meat ingots to oredict lists 
+- Added warning to MW gas grenade 
+- Added new creative item components
 - Fixed recipe for Aluminium Rods
 - Fixed default keybinds
 - Fixed purpur chisel group
@@ -43,10 +49,9 @@
 - Changed MCHeli chain recipe 
 - Changed creative item recipes
 - Changed recipe for chisel moss ball 
-- Added warning to MW gas grenade 
 - Cleaned up NEI item list (removed invalid/broken items)
 - Removed unused BOP items and add gravestone recipe 
-- Added Meat ingots to oredict lists 
+- Disabled BOP villages and other structures known to crash worlds
 
 ### 2.7.1 Classic
 
