@@ -4,6 +4,7 @@ var removeAndHide = [
 	
 	# HarvestCraft
 	<jaffa:CreamTile>,
+	<jaffa:ExtremeBacon>,
 	<jaffa:kaleCrop>,
 	<jaffa:kaleSeed>,
 	<jaffa:Kale>,	
