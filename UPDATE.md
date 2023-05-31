@@ -1,3 +1,9 @@
+### 2.8.1 Classic
+
+**Changelog:**
+- Added File Director Mod
+- Added Real Time Chat Translation Mod (KETTLE)
+
 ### 2.8 Classic
 
 **Changelog:**
