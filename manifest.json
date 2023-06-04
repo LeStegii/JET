@@ -352,7 +352,7 @@
     {
       "projectID": 665744,
       "fileID": 4545288,
-      "required": false
+      "required": true
     },
     {
       "projectID": 826970,
