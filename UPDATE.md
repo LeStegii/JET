@@ -1,3 +1,13 @@
+### 2.8.2 Classic
+
+**Changelog:**
+- Updated NEI Unofficial
+- Updated UniMixins
+- Updated FalsePatternLib
+- Updated FalseTweaks
+- Updated VillageNames
+- Fixed translation regex
+
 ### 2.8.1 Classic
 
 **Changelog:**
