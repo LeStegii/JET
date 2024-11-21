@@ -1,0 +1,294 @@
+{
+	"foods": [
+		{
+			// the name of the item in "mod:name" format
+			"name": "minecraft:apple",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 1,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "minecraft:carrot",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 1,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "minecraft:golden_carrot",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 2,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 2
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "minecraft:baked_potato",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 1,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "minecraft:poisonous_potato",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 1,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "minecraft:melon",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 1,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "minecraft:beef",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 1,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "minecraft:cooked_beef",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 3,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "minecraft:porkchop",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 1,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "minecraft:cooked_porkchop",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 3,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "minecraft:chicken",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 1,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "minecraft:cooked_chicken",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 3,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "minecraft:cooked_chicken",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 3,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "minecraft:rotten_flesh",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 1,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "minecraft:cooked_fished",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 2,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "minecraft:cooked_fished",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 1,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 2,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "minecraft:mushroom_stew",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 3,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "minecraft:bread",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 3,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "minecraft:pumpkin_pie",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 4,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "BiomesOPlenty:food",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 2,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 1,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "etfuturum:rabbit_raw",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 1,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "etfuturum:rabbit_cooked",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 3,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "etfuturum:chorus_fruit",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 1,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "etfuturum:beetroot_soup",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 3,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "etfuturum:rabbit_stew",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 5,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "MineFactoryReloaded:meat.nugget.raw",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 0,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "MineFactoryReloaded:meat.nugget.cooked",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 0,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "MineFactoryReloaded:meat.ingot.raw",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 1,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		},
+		{
+			// the name of the item in "mod:name" format
+			"name": "MineFactoryReloaded:meat.ingot.cooked",
+			// [optional] the metadata value of the item (default: 0)
+			"meta": 0,
+			// the hunger value of the item (1 hunger = 1/2 hunger bar)
+			"hunger": 3,
+			// the saturation modifier (saturation = hunger * 2 * saturationModifier)
+			"saturationModifier": 1
+		}
+	]
+}

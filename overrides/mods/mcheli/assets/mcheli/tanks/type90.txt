@@ -1,0 +1,119 @@
+﻿DisplayName = Type 90 MBT
+AddDisplayName = ja_JP, 90式戦車
+ItemID = 30100
+MaxHp = 330
+Speed = 0.7
+Sound = mbt_run
+ThrottleUpDown = 10.0
+MobilityYawOnGround = 2.0
+MinRotationPitch = -50
+MaxRotationPitch = 12
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 3
+CameraPosition = 0.00,  3.50, 1.55, true
+EnableNightVision = true
+CameraRotationSpeed = 25
+;EnableEntityRadar = true
+MaxFuel         = 1200
+FuelConsumption = 3.0
+StepHeight = 1.5
+DefaultFreelook = true
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.3
+FlareType = 10
+
+; 指定した高さまでの水に触れてもダメージを受けない
+; 2であれば2ブロックまでダメージ無し
+SubmergedDamageHeight = 3
+
+HideEntity = true
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+; 重心Z座標設定
+WeightedCenterZ = 0.0
+
+;SetWheelPos =  X座標, Y座標,  Z座標1, Z座標2, Z座標3 ...
+; X座標のマイナス側は必要なし
+SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
+
+HUD = mbt_hud, gunner
+
+
+
+
+AddGunnerSeat =  0.00,  3.50, 1.55,   0.00,  3.50, 1.00,  false, -90, 90, true
+AddGunnerSeat =  1.00,  2.20, 0.12,  1.00,  3.50,  0.12,  false, -90, 90, true
+
+; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
+MotionFactor = 0.9
+
+;ArmorMinDamage 最小ダメージ、これより小さいダメージは無効化される
+ArmorMinDamage = 12
+;ArmorMaxDamage 最大ダメージ、これより大きいダメージは最大ダメージに丸められる
+ArmorMaxDamage = 500
+;ArmorDamageFactor ダメージ係数上記のMin/Max範囲チェック後のダメージの係数 1で100%, 0.5で50%
+ArmorDamageFactor = 0.95
+;後退可能にする
+EnableBack = true
+
+;PivotTurnThrottle を0より大きい値にすると超信地旋回ができなくなる。デフォルトは0
+PivotTurnThrottle = 0.0
+;AddCrawlerTrack = 履帯の表裏逆転,  1つの履帯の間隔, 履帯のXの位置, 履帯の回転ポイントZ/Y, 履帯の回転ポイントZ/Y, 履帯の回転ポイントZ/Y, ...
+;転輪がなくても動作する
+AddCrawlerTrack = true, 0.2, -2.15,  -0.11/-3.09, 0.35/-3.88, 0.5/-4.09, 0.74/-4.17,0.99/-4.09,1.14/-3.88,0.91/3.6,0.91/3.83,0.77/4.02,0.55/4.09,0.33/4.02,0.2/3.83,-0.25/2.53
+AddCrawlerTrack = true, 0.2,  2.15,   -0.11/-3.09, 0.35/-3.88, 0.5/-4.09, 0.74/-4.17,0.99/-4.09,1.14/-3.88,0.91/3.6,0.91/3.83,0.77/4.02,0.55/4.09,0.33/4.02,0.2/3.83,-0.25/2.53
+
+
+; 転輪の回転速度：0より小さい値を設定すると逆回転する
+;TrackRollerRot = 30
+
+;転輪を追加する、設定は座標だけで、X軸が負の値だと右側、正の値だと左側の転輪となる
+;履帯と同じ動きをするが、履帯がなくても設定可能
+AddTrackRoller =  1.99 ,0.55 ,3.71
+AddTrackRoller =  1.99,  0.1,  2.41
+AddTrackRoller = 1.99,  0.1,  1.29
+AddTrackRoller =1.99,  0.1,  0.25
+AddTrackRoller = 1.99,  0.1,  -0.72
+AddTrackRoller =  1.99,  0.1,  -1.7
+AddTrackRoller =  1.99,  0.1,  -2.78
+AddTrackRoller = 2.06,  0.74,  -3.75
+
+AddTrackRoller =  -1.99 ,0.55 ,3.71
+AddTrackRoller =  -1.99,  0.1,  2.41
+AddTrackRoller = -1.99,  0.1,  1.29
+AddTrackRoller =-1.99,  0.1,  0.25
+AddTrackRoller =-1.99,  0.1,  -0.72
+AddTrackRoller =  -1.99,  0.1,  -1.7
+AddTrackRoller =  -1.99,  0.1,  -2.78
+AddTrackRoller = -2.06,  0.74,  -3.75
+
+;主砲
+AddPartWeapon =jm33/jm12, false, true, false,  0.00, 1.72, -0.01, 0
+AddPartWeaponChild = false, true, 0.00, 2.12, 1.88, 0.0
+AddPartWeaponChild = false, true, 0.00, 2.12, 1.88, 0.5
+AddTurretWeapon = jm33, 0.00, 2.12, 7.57,  0.0, 0.0, true,1, 0,-360,180, -30, 12
+AddTurretWeapon = jm12, 0.00, 2.12, 7.57,  0.0, 0.0, true,1, 0,-360,180, -30, 12
+AddTurretWeapon = type74,  0.44, 2.1, 2.1,  0.0, 0.0, true,1, 0,-360,180, -30, 12
+
+AddPartTurretWeapon    =  m240_r,   true, true, true,  0.2, 3.13, 0.41
+AddPartTurretWeapon    = m240_r, false, true, false,  0.21, 2.73, 0.43
+AddTurretWeapon = m240_r,    0.21, 2.73, 0.43,   0.0, 0.0, false, 2, 0, -360,180, -50,10
+
+AddRecipe = "XIX",  " X ",  "XIX",  X, iron_block,  I, iron_ingot
+
+;RideRack = 乗る機体名, ラック番号 (1～) 
+RideRack = c5, 1
+RideRack = c5, 2
+
+BoundingBox =  0.0, 0.6,  2.2,   3.4, 1.8,  0.70
+BoundingBox = -0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+BoundingBox =  0.9, 1.6,  1.0,   2.4, 3.2,  0.70
+BoundingBox =  0.0, 1.4, -2.2,   3.8, 3.0,  1.00
+BoundingBox =  0.0, 3.0, -2.0,   2.0, 1.0,  1.25
+BoundingBox = -0.9, 1.2, -4.5,   2.4, 1.6,  1.25
+BoundingBox =  0.9, 1.2, -4.5,   2.4, 1.6,  1.25

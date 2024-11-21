@@ -1,8 +1,0 @@
-{
-    "packName": "JET",
-    "icon": {
-        "path": "resources/assets/fml/textures/gui/icon.png",
-		"width": 64,
-		"height": 64
-   }
-}

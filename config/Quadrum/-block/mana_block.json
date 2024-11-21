@@ -1,9 +1,0 @@
-{
-    "name": "mana_block",
-    "default-texture": "mana_block",
-    "material": "rock",
-    "hardness": 10,
-	"drops-self": "true",
-	"flammable": "false",
-    "requires-tool": "true"
-}

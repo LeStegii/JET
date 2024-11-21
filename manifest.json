@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Minecraft JET",
-  "version": "2.9 Classic",
+  "version": "2.9.0 Classic",
   "author": "LeStegii",
   "files": [
     {
@@ -337,11 +337,6 @@
     {
       "projectID": 59216,
       "fileID": 2218771,
-      "required": true
-    },
-    {
-      "projectID": 677782,
-      "fileID": 4626409,
       "required": true
     },
     {

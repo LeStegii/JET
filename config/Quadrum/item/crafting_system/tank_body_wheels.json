@@ -1,7 +1,0 @@
-{
-    "name": "tank_body_wheels",
-    "texture": "tank_body_wheels",
-	"ore-dictionary": [
-		"bodyTank"
-	]
-}

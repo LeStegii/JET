@@ -1,3 +1,23 @@
+### 2.9.0
+
+**Changelog:**
+- Update Campfire Backport
+- Update Et Futurum Requiem
+- Update CodeChickenCore Unofficial 1.7.10
+- Remove GTNHLib
+- Update Open Modular Turrets
+- Update UniMixins
+- Update Village Names
+- Update Xaero's Minimap (Fair-play Edition)
+- 
+- 
+- 
+
+### 2.8.3
+
+**Changelog:**
+- Updated FileDirector
+
 ### 2.8.2 Classic
 
 **Changelog:**

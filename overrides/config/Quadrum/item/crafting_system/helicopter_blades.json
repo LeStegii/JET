@@ -1,0 +1,7 @@
+{
+    "name": "helicopter_blades",
+    "texture": "helicopter_blades",
+	"ore-dictionary": [
+		"partRotary"
+	]
+}

@@ -1,0 +1,7 @@
+{
+    "name": "tank_wheel",
+    "texture": "tank_wheel",
+	"ore-dictionary": [
+		"wheel"
+	]
+}

@@ -1,9 +1,0 @@
-{
-    "name": "steel_block",
-    "default-texture": "steel_block",
-    "material": "rock",
-    "hardness": 5,
-	"drops-self": "true",
-	"flammable": "false",
-    "requires-tool": "true"
-}
