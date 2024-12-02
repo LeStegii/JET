@@ -23,7 +23,6 @@ mods.nei.NEI.hide(<roadstuff:bitumenBlock>);
 recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ore:toolShears>.transformDamage()]);
 
 // Iron Plate
-recipes.remove(<malisisdoors:rustyLadder>);
 recipes.addShapeless(<roadstuff:itemIronPart:1>, [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]);
 
 mods.thermalexpansion.Transposer.addFillRecipe(2000, <minecraft:clay_ball>, <roadstuff:itemBitumen:1> * 2, <liquid:sludge> * 100);
