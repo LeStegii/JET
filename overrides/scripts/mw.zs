@@ -94,11 +94,11 @@ recipes.addShapeless(<mw:TanCloth>, [<ore:anyCloth>, <ore:dyeCeramicYellow>]);
 recipes.addShapeless(<mw:Cloth>, [<ore:anyCloth>, <ore:dyeCeramicWhite>]);
 
 // Steel/Aluminum Plates
-recipes.addShapeless(<mw:AluminumPlate>, [<mw:AluminumIngot>, <mw:AluminumIngot>, <mw:AluminumIngot>, <ore:toolHammer>.reuse()]);
-recipes.addShapeless(<mw:MiniSteelPlate>, [<mw:SteelIngot>, <mw:SteelIngot>, <ore:toolHammer>.reuse()]);
-recipes.addShapeless(<mw:SteelPlate>, [<mw:MiniSteelPlate>, <mw:MiniSteelPlate>, <mw:MiniSteelPlate>, <ore:toolHammer>.reuse()]);
-recipes.addShapeless(<mw:SteelPlate>, [<mw:MiniSteelPlate>, <mw:MiniSteelPlate>, <mw:MiniSteelPlate>, <ore:toolHammer>.reuse()]);
-recipes.addShapeless(<mw:BigSteelPlate>, [<mw:SteelPlate>, <mw:SteelPlate>, <mw:MiniSteelPlate>, <ore:toolHammer>.reuse()]);
+recipes.addShapeless(<mw:AluminumPlate>, [<mw:AluminumIngot>, <mw:AluminumIngot>, <mw:AluminumIngot>]);
+recipes.addShapeless(<mw:MiniSteelPlate>, [<mw:SteelIngot>, <mw:SteelIngot>]);
+recipes.addShapeless(<mw:SteelPlate>, [<mw:MiniSteelPlate>, <mw:MiniSteelPlate>, <mw:MiniSteelPlate>]);
+recipes.addShapeless(<mw:SteelPlate>, [<mw:MiniSteelPlate>, <mw:MiniSteelPlate>, <mw:MiniSteelPlate>]);
+recipes.addShapeless(<mw:BigSteelPlate>, [<mw:SteelPlate>, <mw:SteelPlate>, <mw:MiniSteelPlate>]);
 
 // Optic Glass
 mods.thermalexpansion.Smelter.addRecipe(4000, <mw:TitaniumIngot>*2, <BigReactors:BRMultiblockGlass>*2, <mw:OpticGlass>, <BigReactors:BRIngot:6>, 20);
