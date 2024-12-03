@@ -34,3 +34,16 @@ mods.nei.NEI.hide(<appliedenergistics2:item.ItemMultiMaterial:38>);
 mods.nei.NEI.hide(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>);
 mods.nei.NEI.hide(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>);
 mods.nei.NEI.hide(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>);
+
+//Remove unnecessary Items
+recipes.remove(<appliedenergistics2:item.ItemPaintBall:*>);
+recipes.remove(<appliedenergistics2:item.ToolMassCannon:*>);
+recipes.remove(<appliedenergistics2:tile.BlockQuantumRing>);
+recipes.remove(<appliedenergistics2:tile.BlockQuantumLinkChamber>);
+recipes.remove(<appliedenergistics2:tile.BlockTinyTNT>);
+
+mods.nei.NEI.hide(<appliedenergistics2:item.ItemPaintBall:*>);
+mods.nei.NEI.hide(<appliedenergistics2:item.ToolMassCannon:*>);
+mods.nei.NEI.hide(<appliedenergistics2:tile.BlockQuantumRing>);
+mods.nei.NEI.hide(<appliedenergistics2:tile.BlockQuantumLinkChamber>);
+mods.nei.NEI.hide(<appliedenergistics2:tile.BlockTinyTNT>);
