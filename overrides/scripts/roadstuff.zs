@@ -19,9 +19,6 @@ mods.nei.NEI.hide(<roadstuff:bitumenBlock>);
 <roadstuff:itemIronPart>.displayName = "Aluminium Rod";
 <ore:stickAluminum>.add(<roadstuff:itemIronPart>);
 
-// Aluminium Rod
-recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ore:toolShears>.transformDamage()]);
-
 // Iron Plate
 recipes.addShapeless(<roadstuff:itemIronPart:1>, [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]);
 
@@ -37,5 +34,4 @@ furnace.addRecipe(<chisel:concrete>, <roadstuff:concreteBlock>);
 
 
 // Aluminium Rod
-
 recipes.addShaped(<roadstuff:itemIronPart>*2, [[<ore:ingotAluminium>, null], [<ore:ingotAluminium>, null]]);
