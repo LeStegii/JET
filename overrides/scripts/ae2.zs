@@ -7,7 +7,7 @@ mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:iron_block>, <appliedene
 //Switch and remove Controller with Weaker replacement Energy Acceptor
 mods.nei.NEI.hide(<appliedenergistics2:tile.BlockController>);
 recipes.remove(<appliedenergistics2:tile.BlockController>);
-<appliedenergistics2:tile.BlockEnergyAcceptor>.displayName = "ME Controller";
+<appliedenergistics2:tile.BlockEnergyAcceptor>.displayName = "ME Controller (Energy Acceptor)";
 
 //Sky Stone / Sky Stone Dust Crafting
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:45> * 2, [<appliedenergistics2:item.ItemMultiMaterial:8>, <appliedenergistics2:item.ItemMultiMaterial:2>]);
