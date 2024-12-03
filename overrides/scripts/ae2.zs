@@ -4,3 +4,5 @@ mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:iron_block>, <minecraft:
 mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:iron_block>, <minecraft:diamond>, <appliedenergistics2:item.ItemMultiMaterial:14>);
 mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:iron_block>, <appliedenergistics2:item.ItemMultiMaterial:10>, <appliedenergistics2:item.ItemMultiMaterial:13>);
 
+//Switch and remove Controller with Weaker replacement Energy Acceptor
+recipes.remove(<appliedenergistics2:tile.BlockController>);
