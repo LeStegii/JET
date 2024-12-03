@@ -19,8 +19,6 @@ mods.nei.NEI.hide(<roadstuff:bitumenBlock>);
 <roadstuff:itemIronPart>.displayName = "Aluminium Rod";
 <ore:stickAluminum>.add(<roadstuff:itemIronPart>);
 
-// Iron Plate
-recipes.addShapeless(<roadstuff:itemIronPart:1>, [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]);
 
 mods.thermalexpansion.Transposer.addFillRecipe(2000, <minecraft:clay_ball>, <roadstuff:itemBitumen:1> * 2, <liquid:sludge> * 100);
 <chisel:concrete>.displayName = "Hardened Concrete";
