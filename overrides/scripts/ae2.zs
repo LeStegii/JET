@@ -9,9 +9,10 @@ mods.nei.NEI.hide(<appliedenergistics2:tile.BlockController>);
 recipes.remove(<appliedenergistics2:tile.BlockController>);
 <appliedenergistics2:tile.BlockEnergyAcceptor>.displayName = "ME Controller (Energy Acceptor)";
 
-//Sky Stone / Sky Stone Dust Crafting
-recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:45> * 2, [<appliedenergistics2:item.ItemMultiMaterial:8>, <appliedenergistics2:item.ItemMultiMaterial:2>]);
-recipes.addShaped(<appliedenergistics2:tile.BlockSkyStone>, [[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>], [<minecraft:stone>, <appliedenergistics2:item.ItemMultiMaterial:45>, <minecraft:stone>], [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]]);
+//Sky Stone / Sky Stone Dust Induction Smelter
+mods.thermalexpansion.Smelter.addRecipe(800, <appliedenergistics2:item.ItemMultiMaterial:8>, <appliedenergistics2:item.ItemMultiMaterial:2>, <appliedenergistics2:item.ItemMultiMaterial:45>);
+mods.thermalexpansion.Smelter.addRecipe(800, <appliedenergistics2:item.ItemMultiMaterial:45>, <minecraft:stone>, <appliedenergistics2:tile.BlockSkyStone>);
+
 
 //Remove and Hide "16k"+ Recipes
 recipes.remove(<appliedenergistics2:tile.BlockCraftingStorage:2>);
