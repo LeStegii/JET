@@ -32,4 +32,4 @@ furnace.addRecipe(<chisel:concrete>, <roadstuff:concreteBlock>);
 
 
 // Aluminium Rod
-recipes.addShaped(<roadstuff:itemIronPart>*2, [[<ore:ingotAluminium>, null], [<ore:ingotAluminium>, null]]);
+recipes.addShapedMirrored(<roadstuff:itemIronPart>*2, [[<ore:ingotAluminium>, null], [<ore:ingotAluminium>, null]]);
