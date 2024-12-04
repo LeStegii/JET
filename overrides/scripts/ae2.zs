@@ -47,3 +47,6 @@ mods.nei.NEI.hide(<appliedenergistics2:item.ToolMassCannon:*>);
 mods.nei.NEI.hide(<appliedenergistics2:tile.BlockQuantumRing>);
 mods.nei.NEI.hide(<appliedenergistics2:tile.BlockQuantumLinkChamber>);
 mods.nei.NEI.hide(<appliedenergistics2:tile.BlockTinyTNT>);
+
+// fix Blank Pattern visibility in NEI
+mods.nei.NEI.addEntry(<appliedenergistics2:item.ItemMultiMaterial:52>);
