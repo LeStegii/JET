@@ -13,37 +13,7 @@ var remove = [
 ] as IItemStack[];
 
 
-var removeAndHide = [
-	<etfuturum:rose>,
-	<etfuturum:daylight_detector_inverted>,
-	<etfuturum:brewing_stand>,
-	<etfuturum:beacon>,
-	<etfuturum:enchantment_table>,
-	<etfuturum:anvil>,
-	<etfuturum:anvil:1>,
-	<etfuturum:anvil:2>,
-	<etfuturum:lit_smoker>,
-	<etfuturum:lit_blast_furnace>,
-	<etfuturum:sign_spruce>,
-	<etfuturum:wall_sign_spruce>,
-	<etfuturum:sign_birch>,
-	<etfuturum:wall_sign_birch>,
-	<etfuturum:sign_jungle>,
-	<etfuturum:wall_sign_jungle>,
-	<etfuturum:sign_acacia>,
-	<etfuturum:wall_sign_acacia>,
-	<etfuturum:sign_dark_oak>,
-	<etfuturum:wall_sign_dark_oak>
 
-] as IItemStack[];
-
-for toRemove in remove {
-	recipes.remove(toRemove);
-}
-for toRemove in removeAndHide {
-	recipes.remove(toRemove);
-	mods.nei.NEI.hide(toRemove);
-}
 
 
 mods.thermalexpansion.Smelter.addRecipe(4000, <etfuturum:netherite_ingot>, <minecraft:diamond_sword>, <etfuturum:netherite_sword>);
