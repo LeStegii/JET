@@ -19,11 +19,6 @@ mods.nei.NEI.hide(<roadstuff:bitumenBlock>);
 <roadstuff:itemIronPart>.displayName = "Aluminium Rod";
 <ore:stickAluminum>.add(<roadstuff:itemIronPart>);
 
-// Aluminium Rod
-recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ore:toolShears>.transformDamage()]);
-
-// Iron Plate
-recipes.addShapeless(<roadstuff:itemIronPart:1>, [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:toolHammer>.reuse()]);
 
 mods.thermalexpansion.Transposer.addFillRecipe(2000, <minecraft:clay_ball>, <roadstuff:itemBitumen:1> * 2, <liquid:sludge> * 100);
 <chisel:concrete>.displayName = "Hardened Concrete";
@@ -37,16 +32,4 @@ furnace.addRecipe(<chisel:concrete>, <roadstuff:concreteBlock>);
 
 
 // Aluminium Rod
-recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <minecraft:shears>.anyDamage().transformDamage()]);
-recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsWood>.anyDamage().transformDamage()]);
-recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsStone>.anyDamage().transformDamage()]);
-recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsDiamond>.anyDamage().transformDamage()]);
-recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsGold>.anyDamage().transformDamage()]);
-recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsCopper>.anyDamage().transformDamage()]);
-recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsTin>.anyDamage().transformDamage()]);
-recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsSilver>.anyDamage().transformDamage()]);
-recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsLead>.anyDamage().transformDamage()]);
-recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsNickel>.anyDamage().transformDamage()]);
-recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsInvar>.anyDamage().transformDamage()]);
-recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsBronze>.anyDamage().transformDamage()]);
-recipes.addShapeless(<roadstuff:itemIronPart>*2, [<ore:ingotAluminium>, <ThermalFoundation:tool.shearsPlatinum>.anyDamage().transformDamage()]);
+recipes.addShapedMirrored(<roadstuff:itemIronPart>*2, [[<ore:ingotAluminium>, null], [<ore:ingotAluminium>, null]]);
