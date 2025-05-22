@@ -1,214 +1,182 @@
 {
-    "images":
-    {
-        "black":
-        {
-            "image" : "custommainmenu:textures/gui/transparent.png",
-            "posX" : 50,
-            "posY" : 0,
-            "width" : 130,
-            "height" : 2000,
-            "alignment" : "top_left"
+    "images": {
+        "black": {
+            "image": "custommainmenu:textures/gui/transparent.png",
+            "posX": 50,
+            "posY": 0,
+            "width": 130,
+            "height": 2000,
+            "alignment": "top_left"
         },
-		"logo":
-        {
-            "image" : "custommainmenu:textures/gui/logo.png",
-            "posX" : 50,
-            "posY" : -120,
-            "width" : 130,
-            "height" : 38,
-            "alignment" : "left_center"
+        "logo": {
+            "image": "custommainmenu:textures/gui/logo.png",
+            "posX": 50,
+            "posY": -120,
+            "width": 130,
+            "height": 38,
+            "alignment": "left_center"
         }
     },
-    
-    "texts":
-    {
-        "byKettleMC":
-        {
-            "text" : "by KettleMC.net",
-            "posX" : 59,
-            "posY" : -73,
-            "fontSize" : "1.5",
-            "alignment" : "left_center",
-            "action" :
-            {
-                "type" : "openLink",
-                "link" : "https://KettleMC.net"
+    "texts": {
+        "byKettleMC": {
+            "text": "by KettleMC.net",
+            "posX": 59,
+            "posY": -73,
+            "fontSize": "1.5",
+            "alignment": "left_center",
+            "action": {
+                "type": "openLink",
+                "link": "https://KettleMC.net"
             }
         }
     },
-    
-    "buttons":
-    {
-        "singleplayer":
-        {
-            "text" : "menu.singleplayer",
-            "posX" : 55,
-            "posY" : -45,
-            "width" : 120,
-            "height" : 20,
-            "alignment" : "left_center",
-            "imageWidth" : 480,
-            "imageHeight" : 96,
-            "normalTextColor" : 16777215,
-            "texture" : "custommainmenu:textures/gui/button.png",
-            "action" :
-            {
-                "type" : "openGui",
-                "gui" : "singleplayer"
+    "buttons": {
+        "singleplayer": {
+            "text": "menu.singleplayer",
+            "posX": 55,
+            "posY": -45,
+            "width": 120,
+            "height": 20,
+            "alignment": "left_center",
+            "imageWidth": 480,
+            "imageHeight": 96,
+            "normalTextColor": 16777215,
+            "texture": "custommainmenu:textures/gui/button.png",
+            "action": {
+                "type": "openGui",
+                "gui": "singleplayer"
             }
         },
-		
-		"multiplayer":
-        {
-            "text" : "menu.multiplayer",
-            "posX" : 55,
-            "posY" : 5,
-            "width" : 120,
-            "height" : 20,
-            "alignment" : "left_center",
-            "imageWidth" : 480,
-            "imageHeight" : 96,
-            "normalTextColor" : 16777215,
-            "texture" : "custommainmenu:textures/gui/button.png",
-            "action" :
-            {
-                "type" : "openGui",
-                "gui" : "multiplayer"
+        "multiplayer": {
+            "text": "menu.multiplayer",
+            "posX": 55,
+            "posY": 5,
+            "width": 120,
+            "height": 20,
+            "alignment": "left_center",
+            "imageWidth": 480,
+            "imageHeight": 96,
+            "normalTextColor": 16777215,
+            "texture": "custommainmenu:textures/gui/button.png",
+            "action": {
+                "type": "openGui",
+                "gui": "multiplayer"
             }
         },
-		
-        "server":
-        {
-            "text" : "Server",
-            "posX" : 55,
-            "posY" : -20,
-            "width" : 120,
-            "height" : 20,
-            "alignment" : "left_center",
-            "imageWidth" : 480,
-            "imageHeight" : 96,
-            "normalTextColor" : 16777215,
-            "texture" : "custommainmenu:textures/gui/button.png",
-            "action" :
-            {
-                "type" : "connectToServer",
-                "ip" : "KettleMC.net"
+        "server": {
+            "text": "Server",
+            "posX": 55,
+            "posY": -20,
+            "width": 120,
+            "height": 20,
+            "alignment": "left_center",
+            "imageWidth": 480,
+            "imageHeight": 96,
+            "normalTextColor": 16777215,
+            "texture": "custommainmenu:textures/gui/button.png",
+            "action": {
+                "type": "connectToServer",
+                "ip": "KettleMC.net"
             }
         },
-
-        "options":
-        {
-            "text" : "menu.options",
-            "posX" : 55,
-            "posY" : 30,
-            "width" : 120,
-            "height" : 20,
-            "alignment" : "left_center",
-            "imageWidth" : 480,
-            "imageHeight" : 96,
-            "normalTextColor" : 16777215,
-            "texture" : "custommainmenu:textures/gui/button.png",
-            "action" :
-            {
-                "type" : "openGui",
-                "gui" : "options"
+        "options": {
+            "text": "menu.options",
+            "posX": 55,
+            "posY": 30,
+            "width": 120,
+            "height": 20,
+            "alignment": "left_center",
+            "imageWidth": 480,
+            "imageHeight": 96,
+            "normalTextColor": 16777215,
+            "texture": "custommainmenu:textures/gui/button.png",
+            "action": {
+                "type": "openGui",
+                "gui": "options"
             }
         },
-		
-		"exit":
-        {
-            "text" : "menu.quit",
-            "posX" : 55,
-            "posY" : 55,
-            "width" : 120,
-            "height" : 20,
-            "alignment" : "left_center",
-            "imageWidth" : 480,
-            "imageHeight" : 96,
-            "normalTextColor" : 16777215,
-            "texture" : "custommainmenu:textures/gui/button.png",
-            "action" :
-            {
-                "type" : "quit"
+        "exit": {
+            "text": "menu.quit",
+            "posX": 55,
+            "posY": 55,
+            "width": 120,
+            "height": 20,
+            "alignment": "left_center",
+            "imageWidth": 480,
+            "imageHeight": 96,
+            "normalTextColor": 16777215,
+            "texture": "custommainmenu:textures/gui/button.png",
+            "action": {
+                "type": "quit"
             }
         },
-		
-		"refresh":
-        {
-            "text" : "",
-            "posX" : 55,
-            "posY" : -24,
-            "width" : 20,
-            "height" : 20,
-            "imageWidth" : 512,
-            "imageHeight" : 512,
-            "alignment" : "bottom_left",
-            "texture" : "custommainmenu:textures/gui/refresh.png",
-            "tooltip" : "Refresh",
-            "action" :
-            {
+        "refresh": {
+            "text": "",
+            "posX": 55,
+            "posY": -24,
+            "width": 20,
+            "height": 20,
+            "imageWidth": 512,
+            "imageHeight": 512,
+            "alignment": "bottom_left",
+            "texture": "custommainmenu:textures/gui/refresh.png",
+            "tooltip": "Refresh",
+            "action": {
                 "type": "refresh"
             }
         },
-		
-        "discord":
-        {
-            "text" : "",
-            "posX" : 80,
-            "posY" : -24,
-            "width" : 20,
-            "height" : 20,
-            "imageWidth" : 512,
-            "imageHeight" : 512,
-            "alignment" : "bottom_left",
-            "texture" : "custommainmenu:textures/gui/discord.png",
-            "tooltip" : "Discord",
-            "action" :
-            {
+        "discord": {
+            "text": "",
+            "posX": 80,
+            "posY": -24,
+            "width": 20,
+            "height": 20,
+            "imageWidth": 512,
+            "imageHeight": 512,
+            "alignment": "bottom_left",
+            "texture": "custommainmenu:textures/gui/discord.png",
+            "tooltip": "Discord",
+            "action": {
                 "type": "openLink",
-                "link" : "https://discord.gg/f9P9HEj"
+                "link": "https://discord.gg/f9P9HEj"
             }
         },
-		
-		"website":
-        {
-            "text" : "",
-            "posX" : 105,
-            "posY" : -24,
-            "width" : 20,
-            "height" : 20,
-            "imageWidth" : 512,
-            "imageHeight" : 512,
-            "alignment" : "bottom_left",
-            "texture" : "custommainmenu:textures/gui/website.png",
-            "tooltip" : "Website",
-            "action" :
-            {
+        "website": {
+            "text": "",
+            "posX": 105,
+            "posY": -24,
+            "width": 20,
+            "height": 20,
+            "imageWidth": 512,
+            "imageHeight": 512,
+            "alignment": "bottom_left",
+            "texture": "custommainmenu:textures/gui/website.png",
+            "tooltip": "Website",
+            "action": {
                 "type": "openLink",
-                "link" : "https://KettleMC.net"
+                "link": "https://KettleMC.net"
             }
         }
     },
-	
-    "other":
-    {
-        "background":
-        {
-			"image" : "",
-			"slideshow":
-			{
-				"images" : 
-				[
-					"custommainmenu:textures/background/menu1.png",
-					"custommainmenu:textures/background/menu2.png",
-					"custommainmenu:textures/background/menu3.png",
-					"custommainmenu:textures/background/menu4.png",
-					"custommainmenu:textures/background/menu5.png"
-				],
-				"displayDuration" : 100,
-				"fadeDuration" : 15
-			}
+    "other": {
+        "background": {
+            "image": "",
+            "slideshow": {
+                "images": [
+                    "custommainmenu:textures/background/menu1.png",
+                    "custommainmenu:textures/background/menu2.png",
+                    "custommainmenu:textures/background/menu3.png",
+                    "custommainmenu:textures/background/menu4.png",
+                    "custommainmenu:textures/background/menu5.png"
+                ],
+                "displayDuration": 100,
+                "fadeDuration": 15
+            }
+        },
+        "backgroundMusic": {
+            "sound": "music.menu1",
+            "maxDelay": 30,
+            "minDelay": 10
         }
     }
 }
