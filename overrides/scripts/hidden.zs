@@ -133,28 +133,6 @@ var removeAndHide = [
 	<harvestcraft:pamholidayCake>,
 	<harvestcraft:pampumpkincheeseCake>,
 	
-	# Et Futurum
-// 	<etfuturum:rose>,
-// 	<etfuturum:daylight_detector_inverted>,
-// 	<etfuturum:brewing_stand>,
-// 	<etfuturum:beacon>,
-// 	<etfuturum:enchantment_table>,
-// 	<etfuturum:anvil>,
-// 	<etfuturum:anvil:1>,
-// 	<etfuturum:anvil:2>,
-// 	<etfuturum:lit_smoker>,
-// 	<etfuturum:lit_blast_furnace>,
-// 	<etfuturum:sign_spruce>,
-// 	<etfuturum:wall_sign_spruce>,
-// 	<etfuturum:sign_birch>,
-// 	<etfuturum:wall_sign_birch>,
-// 	<etfuturum:sign_jungle>,
-// 	<etfuturum:wall_sign_jungle>,
-// 	<etfuturum:sign_acacia>,
-// 	<etfuturum:wall_sign_acacia>,
-// 	<etfuturum:sign_dark_oak>,
-// 	<etfuturum:wall_sign_dark_oak>,
-	
 	# Carpenters Blocks
 	<CarpentersBlocks:blockCarpentersBed>,
 	<CarpentersBlocks:blockCarpentersDoor>,
@@ -200,9 +178,7 @@ var removeAndHide = [
 	# Aroma
 	<Aroma1997Core:wrenched>,
 	
-	# Chisel
-// 	<mcheli:lit_drafting_table>,
-// 	<mcheli:internal>,
+
 	
 	# Chisel
 	<chisel:aluminum_stairs.3>,
