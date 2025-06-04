@@ -196,6 +196,7 @@ cython_debug/
 
 # Other
 .build/
+jet-*.zip
 
 # Client data
 .curseclient
