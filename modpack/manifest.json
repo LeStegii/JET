@@ -11,413 +11,654 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Minecraft JET",
-  "version": "3.0.0 Alpha",
+  "version": "3.0.0-alpha",
   "author": "LeStegii",
   "files": [
     {
       "projectID": 225635,
       "fileID": 2284130,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/agricraft",
+      "__name": "AgriCraft",
+      "__author": "InfinityRaider"
     },
     {
       "projectID": 224472,
       "fileID": 2530879,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/applecore",
+      "__name": "AppleCore",
+      "__author": "squeek502"
     },
     {
       "projectID": 223794,
       "fileID": 2245762,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2",
+      "__name": "Applied Energistics 2",
+      "__author": "thetechnici4n"
     },
     {
       "projectID": 223735,
       "fileID": 2257644,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/aroma1997core",
+      "__name": "Aroma1997Core",
+      "__author": "Aroma1997"
     },
     {
       "projectID": 60092,
       "fileID": 2219018,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/aroma1997s-dimensional-world",
+      "__name": "Aroma1997s Dimensional World",
+      "__author": "Aroma1997"
     },
     {
       "projectID": 238403,
       "fileID": 2356820,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/better-builders-wands",
+      "__name": "Better Builder's Wands",
+      "__author": "Portablejim"
     },
     {
       "projectID": 228529,
       "fileID": 2500869,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/better-foliage",
+      "__name": "Better Foliage",
+      "__author": "octarine_noise"
     },
     {
       "projectID": 229876,
       "fileID": 2244002,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/betterfps",
+      "__name": "BetterFps (by Guichaguri) "
     },
     {
       "projectID": 241994,
       "fileID": 2282591,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/big-reactors",
+      "__name": "Big Reactors",
+      "__author": "ErogenousBeef"
     },
     {
       "projectID": 252907,
       "fileID": 2516117,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/bigger-crafting-tables",
+      "__name": "Bigger Crafting Tables",
+      "__author": "WanionCane"
     },
     {
       "projectID": 220318,
       "fileID": 2499612,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty",
+      "__name": "Biomes O' Plenty",
+      "__author": "Forstride"
     },
     {
       "projectID": 387444,
       "fileID": 5940198,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/campfire-backport",
+      "__name": "Campfire Backport",
+      "__author": "connor135246"
     },
     {
       "projectID": 898104,
       "fileID": 5504468,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/carbon-config",
+      "__name": "Carbon Config",
+      "__author": "Speiger"
     },
     {
       "projectID": 228932,
       "fileID": 2719376,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/carpenters-blocks",
+      "__name": "Carpenter's Blocks",
+      "__author": "_ForgeUser7446961"
     },
     {
       "projectID": 235279,
       "fileID": 2287442,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/chisel",
+      "__name": "Chisel",
+      "__author": "tterrag1098"
     },
     {
       "projectID": 69162,
       "fileID": 2388750,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/cofh-core",
+      "__name": "CoFH Core",
+      "__author": "TeamCoFH"
     },
     {
       "projectID": 746279,
       "fileID": 6596650,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/codechickencore-unofficial",
+      "__name": "CodeChickenCore Unofficial 1.7.10",
+      "__author": "mitchej123"
     },
     {
       "projectID": 746280,
       "fileID": 5492860,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/codechickenlib-unofficial",
+      "__name": "CodeChickenLib Unofficial 1.7.10",
+      "__author": "mitchej123"
     },
     {
       "projectID": 250398,
       "fileID": 5507281,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/controlling",
+      "__name": "Controlling",
+      "__author": "Jaredlll08"
     },
     {
       "projectID": 239197,
       "fileID": 2838720,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/crafttweaker",
+      "__name": "CraftTweaker",
+      "__author": "Jaredlll08"
     },
     {
       "projectID": 233071,
       "fileID": 2457094,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks",
+      "__name": "Crafting Tweaks",
+      "__author": "BlayTheNinth"
     },
     {
       "projectID": 257814,
       "fileID": 2462369,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/creativecore",
+      "__name": "CreativeCore",
+      "__author": "CreativeMD"
     },
     {
       "projectID": 226406,
       "fileID": 2264779,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/custom-main-menu",
+      "__name": "Custom Main Menu",
+      "__author": "Lumien231"
     },
     {
       "projectID": 221826,
       "fileID": 2495406,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/custom-npcs",
+      "__name": "Custom NPCs",
+      "__author": "Noppes_"
     },
     {
       "projectID": 513764,
       "fileID": 4523625,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/dmod",
+      "__name": "D-Mod",
+      "__author": "makamys"
     },
     {
       "projectID": 238891,
       "fileID": 2642381,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings",
+      "__name": "Dynamic Surroundings",
+      "__author": "OreCruncher"
     },
     {
       "projectID": 233225,
       "fileID": 2252273,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/ezstorage",
+      "__name": "EZStorage",
+      "__author": "zer0fall"
     },
     {
       "projectID": 441392,
       "fileID": 5873837,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/et-futurum-requiem",
+      "__name": "Et Futurum Requiem",
+      "__author": "Roadhog360"
     },
     {
       "projectID": 237167,
       "fileID": 2291433,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/ftb-library-legacy-forge",
+      "__name": "FTB Library (Forge) (Legacy)",
+      "__author": "FTB"
     },
     {
       "projectID": 237102,
       "fileID": 2291494,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/ftb-utilities-forge",
+      "__name": "FTB Utilities (Forge)",
+      "__author": "FTB"
     },
     {
       "projectID": 242677,
       "fileID": 2522249,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/fastcraft",
+      "__name": "FastCraft",
+      "__author": "sfPlayer1"
     },
     {
       "projectID": 650242,
       "fileID": 6436962,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/filedirector",
+      "__name": "File Director",
+      "__author": "Lily"
     },
     {
       "projectID": 278494,
       "fileID": 4473363,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/foamfix-optimization-mod",
+      "__name": "Foam\u200bFix",
+      "__author": "asiekierka"
     },
     {
       "projectID": 229323,
       "fileID": 2242993,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/forge-multi-part",
+      "__name": "Forge Multi Part",
+      "__author": "Chicken_Bones"
     },
     {
       "projectID": 225110,
       "fileID": 2301492,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/glibys-voice-chat",
+      "__name": "Gliby's Voice Chat",
+      "__author": "thegliby"
     },
     {
       "projectID": 238911,
       "fileID": 2452843,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/grappling-hook-mod",
+      "__name": "Grappling Hook Mod",
+      "__author": "yyonne"
     },
     {
       "projectID": 238551,
       "fileID": 2374232,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/gravestone-mod",
+      "__name": "GraveStone Mod",
+      "__author": "henkelmax"
     },
     {
       "projectID": 229073,
       "fileID": 2232170,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/hats",
+      "__name": "Hats",
+      "__author": "iChun"
     },
     {
       "projectID": 62786,
       "fileID": 2214026,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/hide-names",
+      "__name": "Hide Names",
+      "__author": "thislooksfun1"
     },
     {
       "projectID": 224476,
       "fileID": 2332505,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/hunger-overhaul",
+      "__name": "Hunger Overhaul",
+      "__author": "ProgWML6"
     },
     {
       "projectID": 228756,
       "fileID": 2230908,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/iron-chests",
+      "__name": "Iron Chests",
+      "__author": "ProgWML6"
     },
     {
       "projectID": 270441,
       "fileID": 2462371,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/itemphysic-lite",
+      "__name": "ItemPhysic Lite",
+      "__author": "CreativeMD"
     },
     {
       "projectID": 232717,
       "fileID": 2549085,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/jaffa-foods-a-harvestcraft-addon",
+      "__name": "JAFFA Foods (A HarvestCraft Addon)",
+      "__author": "Murdy007"
     },
     {
       "projectID": 602731,
       "fileID": 3734569,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/loading-progress-bar",
+      "__name": "Loading Progress Bar",
+      "__author": "jbredwards"
     },
     {
       "projectID": 253456,
       "fileID": 2343352,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/locks",
+      "__name": "Locks",
+      "__author": "Melonslise"
     },
     {
       "projectID": 225880,
       "fileID": 2311063,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/loot",
+      "__name": "Loot++",
+      "__author": "Tmtravlr"
     },
     {
       "projectID": 223896,
       "fileID": 2283267,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/malisiscore",
+      "__name": "MalisisCore",
+      "__author": "Ordinastie"
     },
     {
       "projectID": 223891,
       "fileID": 2284380,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/malisisdoors",
+      "__name": "MalisisDoors",
+      "__author": "Ordinastie"
     },
     {
       "projectID": 66672,
       "fileID": 2366149,
-      "required": true
-    },
-    {
-      "projectID": 220954,
-      "fileID": 2313730,
-      "required": true
-    },
-    {
-      "projectID": 629058,
-      "fileID": 4347198,
-      "required": true
-    },
-    {
-      "projectID": 60089,
-      "fileID": 2209265,
-      "required": true
-    },
-    {
-      "projectID": 225251,
-      "fileID": 2282522,
-      "required": true
-    },
-    {
-      "projectID": 358228,
-      "fileID": 6581772,
-      "required": true
-    },
-    {
-      "projectID": 513857,
-      "fileID": 4326368,
-      "required": true
-    },
-    {
-      "projectID": 224663,
-      "fileID": 5978294,
-      "required": true
-    },
-    {
-      "projectID": 626981,
-      "fileID": 4368899,
-      "required": true
-    },
-    {
-      "projectID": 231262,
-      "fileID": 2241397,
-      "required": true
-    },
-    {
-      "projectID": 221857,
-      "fileID": 2270206,
-      "required": true
-    },
-    {
-      "projectID": 223773,
-      "fileID": 2213127,
-      "required": true
-    },
-    {
-      "projectID": 70631,
-      "fileID": 2277490,
-      "required": true
-    },
-    {
-      "projectID": 226447,
-      "fileID": 2292845,
-      "required": true
-    },
-    {
-      "projectID": 238984,
-      "fileID": 2347198,
-      "required": true
-    },
-    {
-      "projectID": 64760,
-      "fileID": 2818228,
-      "required": true
-    },
-    {
-      "projectID": 667392,
-      "fileID": 6479902,
-      "required": true
-    },
-    {
-      "projectID": 227443,
-      "fileID": 2388756,
-      "required": true
-    },
-    {
-      "projectID": 69163,
-      "fileID": 2388758,
-      "required": true
-    },
-    {
-      "projectID": 222880,
-      "fileID": 2388752,
-      "required": true
-    },
-    {
-      "projectID": 59216,
-      "fileID": 2218771,
-      "required": true
-    },
-    {
-      "projectID": 1056812,
-      "fileID": 6509896,
-      "required": true
-    },
-    {
-      "projectID": 826970,
-      "fileID": 6255669,
-      "required": true
-    },
-    {
-      "projectID": 243788,
-      "fileID": 2604855,
-      "required": true
-    },
-    {
-      "projectID": 259230,
-      "fileID": 5886875,
-      "required": true
-    },
-    {
-      "projectID": 73488,
-      "fileID": 2230518,
-      "required": true
-    },
-    {
-      "projectID": 79287,
-      "fileID": 2270923,
-      "required": true
-    },
-    {
-      "projectID": 253043,
-      "fileID": 2430662,
-      "required": true
-    },
-    {
-      "projectID": 263466,
-      "fileID": 4978233,
-      "required": true
-    },
-    {
-      "projectID": 59218,
-      "fileID": 2227503,
-      "required": true
-    },
-    {
-      "projectID": 229060,
-      "fileID": 2338148,
-      "required": true
-    },
-    {
-      "projectID": 361579,
-      "fileID": 4271867,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/minefactory-reloaded",
+      "__name": "Minefactory Reloaded",
+      "__author": "skyboy026"
     },
     {
       "projectID": 225738,
       "fileID": 2265493,
-      "required": true
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm",
+      "__name": "MmmMmmMmmMmm (Target Dummy))"
+    },
+    {
+      "projectID": 220954,
+      "fileID": 2313730,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/modtweaker",
+      "__name": "ModTweaker",
+      "__author": "Jaredlll08"
+    },
+    {
+      "projectID": 629058,
+      "fileID": 4347198,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/modern-splash",
+      "__name": "Modern Splash",
+      "__author": "kappa_maintainer"
+    },
+    {
+      "projectID": 60089,
+      "fileID": 2209265,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
+      "__name": "Mouse Tweaks",
+      "__author": "YaLTeR"
+    },
+    {
+      "projectID": 225251,
+      "fileID": 2282522,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/nei-integration",
+      "__name": "NEI Integration",
+      "__author": "Forge_User_01627895"
+    },
+    {
+      "projectID": 358228,
+      "fileID": 6581772,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/notenoughitems-gtnh",
+      "__name": "NotEnoughItems Unofficial 1.7.10",
+      "__author": "mitchej123"
+    },
+    {
+      "projectID": 513857,
+      "fileID": 4326368,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/oauth",
+      "__name": "OAuth",
+      "__author": "Sintinium"
+    },
+    {
+      "projectID": 224663,
+      "fileID": 5978294,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/openmodularturrets",
+      "__name": "Open Modular Turrets",
+      "__author": "Keridos"
+    },
+    {
+      "projectID": 626981,
+      "fileID": 4368899,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/optifine-check",
+      "__name": "Optifine Check",
+      "__author": "KettleMC_NET"
+    },
+    {
+      "projectID": 231262,
+      "fileID": 2241397,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/pams-harvest-the-nether",
+      "__name": "Pam's Harvest the Nether",
+      "__author": "pamharvestcraft"
+    },
+    {
+      "projectID": 221857,
+      "fileID": 2270206,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft",
+      "__name": "Pam's HarvestCraft",
+      "__author": "pamharvestcraft"
+    },
+    {
+      "projectID": 223773,
+      "fileID": 2213127,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/quadrum",
+      "__name": "Quadrum",
+      "__author": "dmillerw"
+    },
+    {
+      "projectID": 70631,
+      "fileID": 2277490,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/redstone-arsenal",
+      "__name": "Redstone Arsenal",
+      "__author": "TeamCoFH"
+    },
+    {
+      "projectID": 226447,
+      "fileID": 2292845,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/resource-loader",
+      "__name": "Resource Loader",
+      "__author": "Lumien231"
+    },
+    {
+      "projectID": 238984,
+      "fileID": 2347198,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/road-stuff",
+      "__name": "Road Stuff",
+      "__author": "Mapper"
+    },
+    {
+      "projectID": 64760,
+      "fileID": 2818228,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/security-craft",
+      "__name": "Security Craft",
+      "__author": "Geforce132"
+    },
+    {
+      "projectID": 667392,
+      "fileID": 6479902,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/tabfaces",
+      "__name": "TabFaces",
+      "__author": "jack_glows"
+    },
+    {
+      "projectID": 227443,
+      "fileID": 2388756,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics",
+      "__name": "Thermal Dynamics",
+      "__author": "TeamCoFH"
+    },
+    {
+      "projectID": 69163,
+      "fileID": 2388758,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/thermal-expansion",
+      "__name": "Thermal Expansion",
+      "__author": "TeamCoFH"
+    },
+    {
+      "projectID": 222880,
+      "fileID": 2388752,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/thermal-foundation",
+      "__name": "Thermal Foundation",
+      "__author": "TeamCoFH"
+    },
+    {
+      "projectID": 59216,
+      "fileID": 2218771,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/treecapitator",
+      "__name": "Treecapitator",
+      "__author": "bspkrs"
+    },
+    {
+      "projectID": 1056812,
+      "fileID": 6509896,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/unilib",
+      "__name": "UniLib",
+      "__author": "CDAGaming_"
+    },
+    {
+      "projectID": 826970,
+      "fileID": 6255669,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/unimixins",
+      "__name": "UniMixins",
+      "__author": "makamys"
+    },
+    {
+      "projectID": 243788,
+      "fileID": 2604855,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/vics-modern-warfare-mod",
+      "__name": "Vic's Modern Warfare Mod [Discontinued]",
+      "__author": "Vic4Games"
+    },
+    {
+      "projectID": 259230,
+      "fileID": 5886875,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/village-names",
+      "__name": "Village Names",
+      "__author": "AstroTibs"
+    },
+    {
+      "projectID": 73488,
+      "fileID": 2230518,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/waila",
+      "__name": "Waila",
+      "__author": "profmobius"
+    },
+    {
+      "projectID": 79287,
+      "fileID": 2270923,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/waila-harvestability",
+      "__name": "Waila Harvestability",
+      "__author": "squeek502"
+    },
+    {
+      "projectID": 253043,
+      "fileID": 2430662,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/wanionlib",
+      "__name": "WanionLib",
+      "__author": "WanionCane"
+    },
+    {
+      "projectID": 263466,
+      "fileID": 4978233,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap-fair-play-edition",
+      "__name": "Xaero's Minimap (Fair-play Edition)",
+      "__author": "xaero96"
+    },
+    {
+      "projectID": 59218,
+      "fileID": 2227503,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/bspkrscore",
+      "__name": "bspkrsCore",
+      "__author": "bspkrs"
+    },
+    {
+      "projectID": 229060,
+      "fileID": 2338148,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/ichunutil",
+      "__name": "iChunUtil",
+      "__author": "iChun"
+    },
+    {
+      "projectID": 361579,
+      "fileID": 4271867,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/spark",
+      "__name": "spark",
+      "__author": "Iucko"
     }
   ],
   "overrides": "overrides"
