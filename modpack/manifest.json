@@ -707,6 +707,14 @@
       "__link": "https://www.curseforge.com/minecraft/mc-mods/project-red-integration",
       "__name": "Project Red - Integration",
       "__author": "MrTJP"
+    },
+    {
+	  "projectID": 229002,
+      "fileID": 2279413,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/mrtjpcore",
+      "__name": "MrTJPCore",
+      "__author": "MrTJP"
     }
   ],
   "overrides": "overrides"
