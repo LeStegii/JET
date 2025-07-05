@@ -446,7 +446,7 @@
     },
     {
       "projectID": 358228,
-      "fileID": 6628957,
+      "fileID": 6716144,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/notenoughitems-gtnh",
       "__name": "NotEnoughItems Unofficial 1.7.10",
@@ -659,6 +659,48 @@
       "__link": "https://www.curseforge.com/minecraft/mc-mods/spark",
       "__name": "spark",
       "__author": "Iucko"
+    },
+	  "projectID": 227048,
+      "fileID": 5624749,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/voltz-engine",
+      "__name": "Voltz Engine",
+      "__author": "QueenOfMissiles"
+    },
+	  "projectID": 244451,
+      "fileID": 2496646,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/icbm",
+      "__name": "ICBM - Interconnected Block Missiles",
+      "__author": "QueenOfMissiles"
+    },
+	  "projectID": 228702,
+      "fileID": 2280728,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/project-red-core",
+      "__name": "Project Red - Core",
+      "__author": "MrTJP"
+    },
+	  "projectID": 229049,
+      "fileID": 2280735,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/project-red-exploration",
+      "__name": "Project Red - Exploration",
+      "__author": "MrTJP"
+    },
+	  "projectID": 229046,
+      "fileID": 2280733,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/project-red-illumination",
+      "__name": "Project Red - Illumination",
+      "__author": "MrTJP"
+    },
+	  "projectID": 229045,
+      "fileID": 2280731,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/project-red-integration",
+      "__name": "Project Red - Integration",
+      "__author": "MrTJP"
     }
   ],
   "overrides": "overrides"
