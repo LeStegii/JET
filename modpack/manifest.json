@@ -715,6 +715,22 @@
       "__link": "https://www.curseforge.com/minecraft/mc-mods/mrtjpcore",
       "__name": "MrTJPCore",
       "__author": "MrTJP"
+    },
+    {
+	  "projectID": 241160,
+      "fileID": 2279400,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/netherportalfix",
+      "__name": "NetherPortalFix",
+      "__author": "BlayTheNinth"
+    },
+    {
+	  "projectID": 223094,
+      "fileID": 2279400,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks",
+      "__name": "Inventory Tweaks",
+      "__author": "JimeoWan"
     }
   ],
   "overrides": "overrides"
