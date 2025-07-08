@@ -187,9 +187,9 @@
             "slideshow": {
                 "images": [
                     "custommainmenu:background0.png",
-					"custommainmenu:background1.png",
-					"custommainmenu:background2.png",
-					"custommainmenu:background3.png"
+		    "custommainmenu:background1.png",
+		    "custommainmenu:background2.png",
+		    "custommainmenu:background3.png"
                 ],
                 "displayDuration": 100,
                 "fadeDuration": 15
