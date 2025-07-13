@@ -55,15 +55,18 @@ def add_info_to_manifest(directory: str, ids_to_links: dict, links_to_names: dic
                 mod_entry[LINK_FIELD] = ids_to_links[mod_entry["projectID"]]
             else:
                 print("Warning: No link found for project ID", mod_entry["projectID"])
-            if mod_entry[LINK_FIELD] in links_to_names:
-                name = links_to_names[mod_entry[LINK_FIELD]][0]
-                author = links_to_names[mod_entry[LINK_FIELD]][1]
-                if name:
-                    mod_entry[NAME_FIELD] = name
+            if LINK_FIELD in mod_entry:
+                if mod_entry[LINK_FIELD] in links_to_names:
+                    name = links_to_names[mod_entry[LINK_FIELD]][0]
+                    author = links_to_names[mod_entry[LINK_FIELD]][1]
+                    if name:
+                        mod_entry[NAME_FIELD] = name
+                    else:
+                        print("Warning: No name found for link", mod_entry[LINK_FIELD])
+                    if author:
+                        mod_entry[AUTHOR_FIELD] = author
                 else:
                     print("Warning: No name found for link", mod_entry[LINK_FIELD])
-                if author:
-                    mod_entry[AUTHOR_FIELD] = author
         with open(f"{directory}/manifest.json", "w") as output_file:
             json.dump(manifest, output_file, indent=2)
 
@@ -85,7 +88,7 @@ def load_links_from_file(file_path: str) -> dict:
     :return: Dictionary mapping project IDs (ints) to links (str).
     """
     return {
-        int(project_id): link for project_id, link in json.load(open(file_path, "r")).items()
+        int(project_id): link[:-1] if link.endswith("/") else link for project_id, link in json.load(open(file_path, "r")).items()
     } if os.path.exists(file_path) else {}
 
 
