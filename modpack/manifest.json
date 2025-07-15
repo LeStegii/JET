@@ -341,14 +341,6 @@
       "__name": "ICBM - Interconnected Block Missiles"
     },
     {
-      "projectID": 223094,
-      "fileID": 2279400,
-      "required": true,
-      "__link": "https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks",
-      "__name": "Inventory Tweaks",
-      "__author": "JimeoWan"
-    },
-    {
       "projectID": 228756,
       "fileID": 2230908,
       "required": true,
