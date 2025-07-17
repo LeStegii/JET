@@ -23,6 +23,7 @@ recipes.remove(<voltzengine:veGear:*>);
 recipes.remove(<voltzengine:veScrew:*>);
 recipes.remove(<voltzengine:veWire:*>);
 recipes.remove(<voltzengine:veNugget:*>);
+recipes.remove(<voltzengine:veIngot:5>);
 recipes.remove(<icbmclassic:icbmCRocketLauncher:*>);
 recipes.remove(<icbmclassic:icbmCCruiseLauncher:*>);
 recipes.remove(<icbmclassic:icbmCMissileCoordinator:*>);
