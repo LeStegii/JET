@@ -10,8 +10,8 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Minecraft JET",
-  "version": "3.0.0-alpha",
+  "name": "JET",
+  "version": "3.0.0-beta",
   "author": "LeStegii",
   "files": [
     {
