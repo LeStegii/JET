@@ -1,0 +1,204 @@
+{
+    "images": {
+        "black": {
+            "image": "custommainmenu:transparent.png",
+            "posX": -130,
+            "posY": 90,
+            "width": 260,
+            "height": 120,
+            "alignment": "top_center"
+        },
+        "logo": {
+            "image": "custommainmenu:logo.png",
+            "posX": -125,
+            "posY": 10,
+            "width": 256,
+            "height": 64,
+            "alignment": "top_center"
+        }
+    },
+    "texts": {
+        "byKettleMC": {
+            "text": "by KettleMC.net",
+            "posX": 70,
+            "posY": 200,
+            "fontSize": "0.7",
+            "alignment": "top_center",
+            "action": {
+                "type": "openLink",
+                "link": "https://KettleMC.net"
+            }
+        },
+        "nrbm": {
+            "text": "Copyright Mojang AB. A KettleMC Modpack, not Mojang related.",
+            "posX": -220,
+            "posY": -10,
+            "fontSize": "0.7",
+            "alignment": "bottom_right",
+            "action": {
+                "type": "openLink",
+                "link": "https://KettleMC.net"
+            }
+        },
+        "mcvers": {
+            "text": "Minecraft 1.7.10",
+            "posX": 5,
+            "posY": -10,
+            "fontSize": "0.7",
+            "alignment": "bottom_left",
+            "action": {
+                "type": "openLink",
+                "link": "https://KettleMC.net"
+            }
+        }
+    },
+    "buttons": {
+        "singleplayer": {
+            "text": "SINGLEPLAYER",
+            "posX": -125,
+            "posY": 125,
+            "width": 120,
+            "height": 20,
+            "alignment": "top_center",
+            "imageWidth": 2052,
+            "imageHeight": 699,
+            "normalTextColor": 16777215,
+            "texture": "custommainmenu:button.png",
+            "action": {
+                "type": "openGui",
+                "gui": "singleplayer"
+            }
+        },
+        "multiplayer": {
+            "text": "CUSTOM SERVERS",
+            "posX": 5,
+            "posY": 125,
+            "width": 120,
+            "height": 20,
+            "alignment": "top_center",
+            "imageWidth": 2052,
+            "imageHeight": 699,
+            "normalTextColor": 16777215,
+            "texture": "custommainmenu:button.png",
+            "action": {
+                "type": "openGui",
+                "gui": "multiplayer"
+            }
+        },
+        "server": {
+            "text": "OFFICIAL SERVER",
+            "posX": -100,
+            "posY": 100,
+            "width": 200,
+            "height": 20,
+            "alignment": "top_center",
+            "imageWidth": 2052,
+            "imageHeight": 699,
+            "normalTextColor": 16777215,
+            "texture": "custommainmenu:button.png",
+            "action": {
+                "type": "connectToServer",
+                "ip": "KettleMC.net"
+            }
+        },
+		"mods": {
+            "text": "MODS",
+            "posX": -125,
+            "posY": 150,
+            "width": 120,
+            "height": 20,
+            "alignment": "top_center",
+            "imageWidth": 2052,
+            "imageHeight": 699,
+            "normalTextColor": 16777215,
+            "texture": "custommainmenu:button.png",
+            "action": {
+                "type": "openGui",
+                "gui": "mods"
+            }
+        },
+        "options": {
+            "text": "OPTIONS",
+            "posX": 5,
+            "posY": 150,
+            "width": 120,
+            "height": 20,
+            "alignment": "top_center",
+            "imageWidth": 2052,
+            "imageHeight": 699,
+            "normalTextColor": 16777215,
+            "texture": "custommainmenu:button.png",
+            "action": {
+                "type": "openGui",
+                "gui": "options"
+            }
+        },
+        "exit": {
+            "text": "EXIT GAME",
+            "posX": -60,
+            "posY": 175,
+            "width": 120,
+            "height": 20,
+            "alignment": "top_center",
+            "imageWidth": 2052,
+            "imageHeight": 699,
+            "normalTextColor": 16777215,
+            "texture": "custommainmenu:button.png",
+            "action": {
+                "type": "quit"
+            }
+        },
+        "discord": {
+            "text": "",
+            "posX": -90,
+            "posY": 175,
+            "width": 20,
+            "height": 20,
+            "imageWidth": 1000,
+            "imageHeight": 1000,
+            "alignment": "top_center",
+            "texture": "custommainmenu:button_discord.png",
+            "tooltip": "Discord",
+            "action": {
+                "type": "openLink",
+                "link": "https://discord.gg/f9P9HEj"
+            }
+        },
+        "website": {
+            "text": "",
+            "posX": 70,
+            "posY": 175,
+            "width": 20,
+            "height": 20,
+            "imageWidth": 1000,
+            "imageHeight": 1000,
+            "alignment": "top_center",
+            "texture": "custommainmenu:button_web.png",
+            "tooltip": "Website",
+            "action": {
+                "type": "openLink",
+                "link": "https://KettleMC.net"
+            }
+        }
+    },
+    "other": {
+        "background": {
+            "image": "",
+            "slideshow": {
+                "images": [
+                    "custommainmenu:background0.png",
+		    "custommainmenu:background1.png",
+		    "custommainmenu:background2.png",
+		    "custommainmenu:background3.png"
+                ],
+                "displayDuration": 100,
+                "fadeDuration": 15
+            }
+        },
+        "backgroundMusic": {
+            "sound": "music.menu1",
+            "maxDelay": 30,
+            "minDelay": 10
+        }
+    }
+}
