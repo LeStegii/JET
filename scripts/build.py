@@ -141,7 +141,7 @@ def compile():
     print("Sorting manifest...")
     sort_manifest(BUILD_DIR, keep_comments=False)
     print("Zipping modpack...")
-    shutil.make_archive(f"jet-{get_version_from_manifest(MODPACK_DIR)}", "zip", "modpack")
+    shutil.make_archive(f"jet-{get_version_from_manifest(MODPACK_DIR)}", "zip", BUILD_DIR)
     # TODO: mcheli
     print("Done!")
 
