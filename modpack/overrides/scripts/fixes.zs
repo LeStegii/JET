@@ -24,3 +24,13 @@ recipes.addShapeless(<ThermalFoundation:material:36>, [<etfuturum:modded_raw_ore
 recipes.addShapeless(<ThermalFoundation:material:37>, [<etfuturum:modded_raw_ore:5>]);
 recipes.addShapeless(<ThermalFoundation:material:38>, [<etfuturum:modded_raw_ore:6>]);
 recipes.addShapeless(<BigReactors:BRIngot:4>, [<etfuturum:modded_raw_ore:7>]);
+
+mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:diamond_helmet>, <etfuturum:netherite_ingot>, <etfuturum:netherite_helmet);
+mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:diamond_chestplate>, <etfuturum:netherite_ingot>, <etfuturum:netherite_chestplate);
+mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:diamond_leggings>, <etfuturum:netherite_ingot>, <etfuturum:netherite_leggings);
+mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:diamond_boots>, <etfuturum:netherite_ingot>, <etfuturum:netherite_boots);
+mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:diamond_pickaxe>, <etfuturum:netherite_ingot>, <etfuturum:netherite_pickaxe);
+mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:diamond_axe>, <etfuturum:netherite_ingot>, <etfuturum:netherite_axe);
+mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:diamond_shovel>, <etfuturum:netherite_ingot>, <etfuturum:netherite_shovel);
+mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:diamond_hoe>, <etfuturum:netherite_ingot>, <etfuturum:netherite_hoe);
+mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:diamond_sword>, <etfuturum:netherite_ingot>, <etfuturum:netherite_sword);
