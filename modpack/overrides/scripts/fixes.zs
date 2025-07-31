@@ -5,18 +5,6 @@ recipes.addShaped(<appliedenergistics2:tile.BlockSecurity>,
   [<appliedenergistics2:item.ItemMultiPart:16>, <appliedenergistics2:item.ItemMultiMaterial:36>, <appliedenergistics2:item.ItemMultiPart:16>],
   [<minecraft:iron_ingot>, <appliedenergistics2:item.ItemMultiMaterial:24>, <minecraft:iron_ingot>]]);
 
-furnace.remove(<etfuturum:raw_ore:0>);
-furnace.remove(<etfuturum:raw_ore:1>);
-furnace.remove(<etfuturum:raw_ore:2>);
-furnace.remove(<etfuturum:modded_raw_ore:1>);
-furnace.remove(<etfuturum:modded_raw_ore:2>);
-furnace.remove(<etfuturum:modded_raw_ore:3>);
-furnace.remove(<etfuturum:modded_raw_ore:4>);
-furnace.remove(<etfuturum:modded_raw_ore:5>);
-furnace.remove(<etfuturum:modded_raw_ore:6>);
-furnace.remove(<etfuturum:modded_raw_ore:7>);
-
-
 furnace.addRecipe(<mw:AluminumIngot>, <etfuturum:modded_raw_ore:0>);
 recipes.addShaped(<mw:AluminumIngot> * 2, [[<voltzengine:gems:8>, <voltzengine:gems:7>], [<voltzengine:gems:9>, <voltzengine:gems:6>]]);
 mods.thermalexpansion.Transposer.addFillRecipe(400, <minecraft:dye:15>, <minecraft:dye:1>, <liquid:redstone> * 100);
