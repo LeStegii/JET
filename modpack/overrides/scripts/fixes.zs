@@ -31,6 +31,6 @@ mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:diamond_leggings>, <etfu
 mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:diamond_boots>, <etfuturum:netherite_ingot>, <etfuturum:netherite_boots>);
 mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:diamond_pickaxe>, <etfuturum:netherite_ingot>, <etfuturum:netherite_pickaxe>);
 mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:diamond_axe>, <etfuturum:netherite_ingot>, <etfuturum:netherite_axe>);
-mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:diamond_shovel>, <etfuturum:netherite_ingot>, <etfuturum:netherite_shovel>);
+mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:diamond_shovel>, <etfuturum:netherite_ingot>, <etfuturum:netherite_spade>);
 mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:diamond_hoe>, <etfuturum:netherite_ingot>, <etfuturum:netherite_hoe>);
 mods.thermalexpansion.Smelter.addRecipe(800, <minecraft:diamond_sword>, <etfuturum:netherite_ingot>, <etfuturum:netherite_sword>);
