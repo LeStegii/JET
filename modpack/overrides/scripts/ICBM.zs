@@ -220,7 +220,7 @@ mods.biggercraftingtables.Huge.addShaped(<icbmclassic:icbmCMissile:17>, [
 mods.biggercraftingtables.Huge.addShaped(<icbmclassic:icbmCMissile:15>, [
     [null, null, null, steel_ingot, null, null, null],
     [null, null, steel_ingot, <icbmclassic:icbmCExplosive:15>, steel_ingot, null, null],
-    [null, null, <icbmclassic:icbmCExplosive:15>, <icbmclassic:icbmCMissile:17>, <icbmclassic:icbmCExplosive:15>, null, null],
+    [null, null, <minecraft:tnt>, <icbmclassic:icbmCMissile:17>, <minecraft:tnt>, null, null],
     [null, null, <BigReactors:BRMetalBlock:3>, <icbmclassic:icbmCExplosive:15>, <BigReactors:BRMetalBlock:3>, null, null],
     [null, turbine_case, turbine_case, <minecraft:diamond_block>, turbine_case, turbine_case, null],
     [null, steel_ingot, null, fuel, null, steel_ingot, null],
