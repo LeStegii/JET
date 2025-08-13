@@ -1,10 +1,3 @@
-recipes.remove(<appliedenergistics2:tile.BlockSecurity>);
-
-recipes.addShaped(<appliedenergistics2:tile.BlockSecurity>,
- [[<minecraft:iron_ingot>, <appliedenergistics2:tile.BlockChest>, <minecraft:iron_ingot>],
-  [<appliedenergistics2:item.ItemMultiPart:16>, <appliedenergistics2:item.ItemMultiMaterial:36>, <appliedenergistics2:item.ItemMultiPart:16>],
-  [<minecraft:iron_ingot>, <appliedenergistics2:item.ItemMultiMaterial:24>, <minecraft:iron_ingot>]]);
-
 furnace.addRecipe(<mw:AluminumIngot>, <etfuturum:modded_raw_ore:0>);
 recipes.addShaped(<mw:AluminumIngot> * 2, [[<voltzengine:gems:8>, <voltzengine:gems:7>], [<voltzengine:gems:9>, <voltzengine:gems:6>]]);
 mods.thermalexpansion.Transposer.addFillRecipe(400, <minecraft:dye:15>, <minecraft:dye:1>, <liquid:redstone> * 100);
